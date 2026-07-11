@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tw-taxonomy/schema/curriculum-standards.schema.json",
+  "title": "tw-taxonomy — 課綱學習重點（curriculum standards）",
+  "description": "十二年國教課綱各領域「學習重點」條目（學習內容＋學習表現），僅收國民小學階段。",
+  "type": "object",
+  "required": ["curriculumVersion", "subjectCount", "subjects"],
+  "properties": {
+    "note": { "type": "string" },
+    "curriculumVersion": { "type": "string" },
+    "subjectCount": { "type": "integer", "minimum": 0 },
+    "subjects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "name", "documentTitle", "documentDate", "elective", "entryCount", "entries"],
+        "properties": {
+          "slug": { "type": "string" },
+          "name": { "type": "string" },
+          "documentTitle": { "type": "string" },
+          "documentDate": { "type": "string", "description": "民國紀年，如 110-11" },
+          "sourceUrl": { "type": ["string", "null"] },
+          "elective": { "type": "boolean" },
+          "entryCount": { "type": "integer", "minimum": 0 },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["key", "kind", "code", "text"],
+              "properties": {
+                "key": { "type": "string", "description": "<slug>:<code>，全域唯一" },
+                "kind": { "type": "string", "enum": ["content", "performance"], "description": "content=學習內容, performance=學習表現" },
+                "code": { "type": "string" },
+                "text": { "type": "string", "description": "條目全文（政府資訊，附來源）" },
+                "category": { "type": ["string", "null"], "description": "主題軸／類別／構面名稱" },
+                "stage": { "type": ["integer", "null"], "minimum": 1, "maximum": 3 },
+                "grade": { "type": ["integer", "null"], "minimum": 1, "maximum": 6, "description": "僅數學學習內容按年級編碼" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

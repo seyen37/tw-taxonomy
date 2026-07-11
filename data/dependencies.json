@@ -1,0 +1,4309 @@
+{
+ "version": "v0.5-perf-deepened",
+ "note": "topicId 依賴 prerequisiteId。國小十領域＋選修語文（框架級）。",
+ "edgeCount": 717,
+ "dependencies": [
+  {
+   "topicId": "twt_9b9e81f50c",
+   "prerequisiteId": "twt_8f74a42b2b",
+   "strength": "hard",
+   "reason": "要點數必須先會依序唸出數詞"
+  },
+  {
+   "topicId": "twt_d08aca1511",
+   "prerequisiteId": "twt_9b9e81f50c",
+   "strength": "hard",
+   "reason": "總數概念建立在正確點數之上"
+  },
+  {
+   "topicId": "twt_65b9960e80",
+   "prerequisiteId": "twt_9b9e81f50c",
+   "strength": "hard",
+   "reason": "判斷第幾個需要依序點數"
+  },
+  {
+   "topicId": "twt_19a4a82a17",
+   "prerequisiteId": "twt_9b9e81f50c",
+   "strength": "hard",
+   "reason": "跳數是點數的進階分群策略"
+  },
+  {
+   "topicId": "twt_bfd69a8e88",
+   "prerequisiteId": "twt_d08aca1511",
+   "strength": "hard",
+   "reason": "數字符號須連結到數量意義才不是無意義的抄寫"
+  },
+  {
+   "topicId": "twt_7427b1ee20",
+   "prerequisiteId": "twt_19a4a82a17",
+   "strength": "hard",
+   "reason": "十個一數的分群經驗是理解「十」作為單位的基礎"
+  },
+  {
+   "topicId": "twt_7427b1ee20",
+   "prerequisiteId": "twt_bfd69a8e88",
+   "strength": "soft",
+   "reason": "熟悉兩位數的讀寫有助於觀察數字的位置意義"
+  },
+  {
+   "topicId": "twt_cdf91d5e2b",
+   "prerequisiteId": "twt_7427b1ee20",
+   "strength": "hard",
+   "reason": "要用表徵呈現位值，須先理解位值單位"
+  },
+  {
+   "topicId": "twt_64c69c8500",
+   "prerequisiteId": "twt_cdf91d5e2b",
+   "strength": "hard",
+   "reason": "換算活動依賴積木與位值表的操作經驗"
+  },
+  {
+   "topicId": "twt_e0cfe62ffa",
+   "prerequisiteId": "twt_7427b1ee20",
+   "strength": "hard",
+   "reason": "0的佔位意義建立在位值結構上"
+  },
+  {
+   "topicId": "twt_555e05af17",
+   "prerequisiteId": "twt_7427b1ee20",
+   "strength": "hard",
+   "reason": "比大小的通則是先比十位，需位值概念"
+  },
+  {
+   "topicId": "twt_555e05af17",
+   "prerequisiteId": "twt_d08aca1511",
+   "strength": "soft",
+   "reason": "數量多少的直觀經驗支撐大小比較"
+  },
+  {
+   "topicId": "twt_957bbb0845",
+   "prerequisiteId": "twt_d08aca1511",
+   "strength": "hard",
+   "reason": "合成分解操作的對象是具體數量"
+  },
+  {
+   "topicId": "twt_88abd9fcfa",
+   "prerequisiteId": "twt_d08aca1511",
+   "strength": "hard",
+   "reason": "加法情境的前提是能用數描述數量"
+  },
+  {
+   "topicId": "twt_928435c0c5",
+   "prerequisiteId": "twt_d08aca1511",
+   "strength": "hard",
+   "reason": "減法情境的前提是能用數描述數量"
+  },
+  {
+   "topicId": "twt_928435c0c5",
+   "prerequisiteId": "twt_88abd9fcfa",
+   "strength": "soft",
+   "reason": "加減常成對學習，加法情境經驗有助理解減法"
+  },
+  {
+   "topicId": "twt_3f6fb789a1",
+   "prerequisiteId": "twt_88abd9fcfa",
+   "strength": "hard",
+   "reason": "符號要有情境意義支撐，否則淪為形式"
+  },
+  {
+   "topicId": "twt_3f6fb789a1",
+   "prerequisiteId": "twt_928435c0c5",
+   "strength": "hard",
+   "reason": "減號的意義來自減法情境"
+  },
+  {
+   "topicId": "twt_628e20e663",
+   "prerequisiteId": "twt_3f6fb789a1",
+   "strength": "hard",
+   "reason": "讀寫算式須先認識其中的符號"
+  },
+  {
+   "topicId": "twt_4e6c99d4c5",
+   "prerequisiteId": "twt_957bbb0845",
+   "strength": "hard",
+   "reason": "基本加法事實即合成分解的內化"
+  },
+  {
+   "topicId": "twt_4e6c99d4c5",
+   "prerequisiteId": "twt_88abd9fcfa",
+   "strength": "hard",
+   "reason": "先理解意義再求熟練，避免死背"
+  },
+  {
+   "topicId": "twt_fce2a241e0",
+   "prerequisiteId": "twt_957bbb0845",
+   "strength": "hard",
+   "reason": "減法事實同樣以合成分解為基礎"
+  },
+  {
+   "topicId": "twt_fce2a241e0",
+   "prerequisiteId": "twt_928435c0c5",
+   "strength": "hard",
+   "reason": "先理解意義再求熟練"
+  },
+  {
+   "topicId": "twt_fce2a241e0",
+   "prerequisiteId": "twt_4e6c99d4c5",
+   "strength": "soft",
+   "reason": "加法流暢有助以想加算減"
+  },
+  {
+   "topicId": "twt_86689de7a3",
+   "prerequisiteId": "twt_957bbb0845",
+   "strength": "hard",
+   "reason": "湊十的核心是數的分解重組"
+  },
+  {
+   "topicId": "twt_86689de7a3",
+   "prerequisiteId": "twt_7427b1ee20",
+   "strength": "soft",
+   "reason": "以十為單位的意識讓湊十策略更自然"
+  },
+  {
+   "topicId": "twt_4e6c99d4c5",
+   "prerequisiteId": "twt_86689de7a3",
+   "strength": "soft",
+   "reason": "策略讓進位加法更快達到流暢"
+  },
+  {
+   "topicId": "twt_87c8bb97ab",
+   "prerequisiteId": "twt_88abd9fcfa",
+   "strength": "hard",
+   "reason": "解題須先能辨識加法情境"
+  },
+  {
+   "topicId": "twt_87c8bb97ab",
+   "prerequisiteId": "twt_928435c0c5",
+   "strength": "hard",
+   "reason": "解題須先能辨識減法情境"
+  },
+  {
+   "topicId": "twt_87c8bb97ab",
+   "prerequisiteId": "twt_628e20e663",
+   "strength": "hard",
+   "reason": "解題需要把情境轉成算式"
+  },
+  {
+   "topicId": "twt_87c8bb97ab",
+   "prerequisiteId": "twt_4e6c99d4c5",
+   "strength": "soft",
+   "reason": "計算流暢讓解題聚焦在理解"
+  },
+  {
+   "topicId": "twt_07590bf2c9",
+   "prerequisiteId": "twt_88abd9fcfa",
+   "strength": "hard",
+   "reason": "交換律從併加情境的觀察而來"
+  },
+  {
+   "topicId": "twt_4e91ac3077",
+   "prerequisiteId": "twt_d08aca1511",
+   "strength": "hard",
+   "reason": "幣值大小需要數量概念"
+  },
+  {
+   "topicId": "twt_4e91ac3077",
+   "prerequisiteId": "twt_64c69c8500",
+   "strength": "soft",
+   "reason": "十個一元換一個十元與位值換算同構"
+  },
+  {
+   "topicId": "twt_724e982f88",
+   "prerequisiteId": "twt_4e91ac3077",
+   "strength": "hard",
+   "reason": "操作錢幣前須先認得幣值"
+  },
+  {
+   "topicId": "twt_724e982f88",
+   "prerequisiteId": "twt_19a4a82a17",
+   "strength": "hard",
+   "reason": "數錢即以5、10為單位的跳數"
+  },
+  {
+   "topicId": "twt_724e982f88",
+   "prerequisiteId": "twt_fce2a241e0",
+   "strength": "soft",
+   "reason": "找錢是減法的應用"
+  },
+  {
+   "topicId": "twt_c5ac476eaf",
+   "prerequisiteId": "twt_8fb9a8a122",
+   "strength": "hard",
+   "reason": "間接比較是直接比較不可行時的延伸"
+  },
+  {
+   "topicId": "twt_c5ac476eaf",
+   "prerequisiteId": "twt_9b9e81f50c",
+   "strength": "hard",
+   "reason": "個別單位測量需要點數單位個數"
+  },
+  {
+   "topicId": "twt_f93a20728d",
+   "prerequisiteId": "twt_bfd69a8e88",
+   "strength": "soft",
+   "reason": "報讀日期需要讀數字"
+  },
+  {
+   "topicId": "twt_91b4a7601b",
+   "prerequisiteId": "twt_c953c29060",
+   "strength": "soft",
+   "reason": "描繪複製的形狀感支援組合活動"
+  },
+  {
+   "topicId": "twt_13654c8d4c",
+   "prerequisiteId": "twt_d08aca1511",
+   "strength": "soft",
+   "reason": "分類後常需點數各類數量"
+  },
+  {
+   "topicId": "twt_77f0edd369",
+   "prerequisiteId": "twt_13654c8d4c",
+   "strength": "hard",
+   "reason": "先會分類才能記錄分類結果"
+  },
+  {
+   "topicId": "twt_77f0edd369",
+   "prerequisiteId": "twt_9b9e81f50c",
+   "strength": "hard",
+   "reason": "記錄各類數量需要點數"
+  },
+  {
+   "topicId": "twt_c2b963631f",
+   "prerequisiteId": "twt_7427b1ee20",
+   "strength": "hard",
+   "reason": "「百」是位值系統向上的自然延伸"
+  },
+  {
+   "topicId": "twt_c2b963631f",
+   "prerequisiteId": "twt_64c69c8500",
+   "strength": "hard",
+   "reason": "百十個的換算依賴十與一換算的經驗"
+  },
+  {
+   "topicId": "twt_4e43778e7d",
+   "prerequisiteId": "twt_c2b963631f",
+   "strength": "hard",
+   "reason": "三位數比較需要百位概念"
+  },
+  {
+   "topicId": "twt_4e43778e7d",
+   "prerequisiteId": "twt_555e05af17",
+   "strength": "hard",
+   "reason": "比較策略由兩位數推廣而來"
+  },
+  {
+   "topicId": "twt_43fce53788",
+   "prerequisiteId": "twt_cdf91d5e2b",
+   "strength": "hard",
+   "reason": "直式的每一行對應位值表徵"
+  },
+  {
+   "topicId": "twt_43fce53788",
+   "prerequisiteId": "twt_4e6c99d4c5",
+   "strength": "hard",
+   "reason": "直式每個位的計算是基本加法"
+  },
+  {
+   "topicId": "twt_43fce53788",
+   "prerequisiteId": "twt_fce2a241e0",
+   "strength": "hard",
+   "reason": "退位計算依賴基本減法"
+  },
+  {
+   "topicId": "twt_43fce53788",
+   "prerequisiteId": "twt_86689de7a3",
+   "strength": "soft",
+   "reason": "進退位的原理與湊十破十相同"
+  },
+  {
+   "topicId": "twt_4000e0ed78",
+   "prerequisiteId": "twt_43fce53788",
+   "strength": "hard",
+   "reason": "演算法直接推廣"
+  },
+  {
+   "topicId": "twt_4000e0ed78",
+   "prerequisiteId": "twt_c2b963631f",
+   "strength": "hard",
+   "reason": "三位數計算需要百位位值"
+  },
+  {
+   "topicId": "twt_cc4b7c741d",
+   "prerequisiteId": "twt_87c8bb97ab",
+   "strength": "hard",
+   "reason": "是基本應用題的變式"
+  },
+  {
+   "topicId": "twt_cc4b7c741d",
+   "prerequisiteId": "twt_5a3371e5f1",
+   "strength": "hard",
+   "reason": "求未知的被減數等須用互逆關係"
+  },
+  {
+   "topicId": "twt_6615ff4180",
+   "prerequisiteId": "twt_4e43778e7d",
+   "strength": "hard",
+   "reason": "估算以位值（幾百）為單位思考"
+  },
+  {
+   "topicId": "twt_6615ff4180",
+   "prerequisiteId": "twt_43fce53788",
+   "strength": "soft",
+   "reason": "有計算經驗才能判斷估算合理性"
+  },
+  {
+   "topicId": "twt_3bb20ba75f",
+   "prerequisiteId": "twt_724e982f88",
+   "strength": "hard",
+   "reason": "延伸既有的錢幣操作經驗"
+  },
+  {
+   "topicId": "twt_3bb20ba75f",
+   "prerequisiteId": "twt_c2b963631f",
+   "strength": "hard",
+   "reason": "大面額計算需要千以內位值"
+  },
+  {
+   "topicId": "twt_b02e12199d",
+   "prerequisiteId": "twt_19a4a82a17",
+   "strength": "hard",
+   "reason": "等組跳數是乘法的計數雛形"
+  },
+  {
+   "topicId": "twt_b02e12199d",
+   "prerequisiteId": "twt_88abd9fcfa",
+   "strength": "hard",
+   "reason": "乘法初義為同數連加"
+  },
+  {
+   "topicId": "twt_27dbe36cba",
+   "prerequisiteId": "twt_b02e12199d",
+   "strength": "hard",
+   "reason": "算式記錄的是倍的情境"
+  },
+  {
+   "topicId": "twt_27dbe36cba",
+   "prerequisiteId": "twt_628e20e663",
+   "strength": "hard",
+   "reason": "延續加減算式的讀寫慣例"
+  },
+  {
+   "topicId": "twt_e90b75b40c",
+   "prerequisiteId": "twt_b02e12199d",
+   "strength": "hard",
+   "reason": "先理解意義避免死背口訣"
+  },
+  {
+   "topicId": "twt_e90b75b40c",
+   "prerequisiteId": "twt_27dbe36cba",
+   "strength": "soft",
+   "reason": "熟悉算式形式有助練習"
+  },
+  {
+   "topicId": "twt_e90b75b40c",
+   "prerequisiteId": "twt_2ac22e7481",
+   "strength": "soft",
+   "reason": "交換律讓記憶量減半"
+  },
+  {
+   "topicId": "twt_0493a1757e",
+   "prerequisiteId": "twt_87c8bb97ab",
+   "strength": "hard",
+   "reason": "兩步驟是單步驟解題的組合"
+  },
+  {
+   "topicId": "twt_0493a1757e",
+   "prerequisiteId": "twt_43fce53788",
+   "strength": "soft",
+   "reason": "數字變大時需要直式支援"
+  },
+  {
+   "topicId": "twt_6859f8609f",
+   "prerequisiteId": "twt_0493a1757e",
+   "strength": "hard",
+   "reason": "沿用兩步驟的解題結構"
+  },
+  {
+   "topicId": "twt_6859f8609f",
+   "prerequisiteId": "twt_e90b75b40c",
+   "strength": "hard",
+   "reason": "其中一步是乘法計算"
+  },
+  {
+   "topicId": "twt_2d4c5f86b5",
+   "prerequisiteId": "twt_9b9e81f50c",
+   "strength": "hard",
+   "reason": "分東西的過程依賴點數"
+  },
+  {
+   "topicId": "twt_2d4c5f86b5",
+   "prerequisiteId": "twt_b02e12199d",
+   "strength": "soft",
+   "reason": "分裝平分與等組乘法互為逆向"
+  },
+  {
+   "topicId": "twt_7cabad3c16",
+   "prerequisiteId": "twt_2d4c5f86b5",
+   "strength": "hard",
+   "reason": "幾分之一來自等分整體的經驗"
+  },
+  {
+   "topicId": "twt_27fbc355ca",
+   "prerequisiteId": "twt_c5ac476eaf",
+   "strength": "hard",
+   "reason": "標準單位是個別單位的公用化"
+  },
+  {
+   "topicId": "twt_99375ebe6c",
+   "prerequisiteId": "twt_27fbc355ca",
+   "strength": "hard",
+   "reason": "公尺建立在公分的實測經驗上"
+  },
+  {
+   "topicId": "twt_99375ebe6c",
+   "prerequisiteId": "twt_64c69c8500",
+   "strength": "soft",
+   "reason": "1公尺＝100公分與位值換算同構"
+  },
+  {
+   "topicId": "twt_0bd729d8b2",
+   "prerequisiteId": "twt_27fbc355ca",
+   "strength": "hard",
+   "reason": "估測依賴實測建立的量感"
+  },
+  {
+   "topicId": "twt_0bd729d8b2",
+   "prerequisiteId": "twt_99375ebe6c",
+   "strength": "soft",
+   "reason": "兩種單位的量感相互支援"
+  },
+  {
+   "topicId": "twt_e94dac352a",
+   "prerequisiteId": "twt_27fbc355ca",
+   "strength": "hard",
+   "reason": "計算的對象是實測得到的公分數"
+  },
+  {
+   "topicId": "twt_e94dac352a",
+   "prerequisiteId": "twt_99375ebe6c",
+   "strength": "hard",
+   "reason": "混合單位計算需要換算"
+  },
+  {
+   "topicId": "twt_e94dac352a",
+   "prerequisiteId": "twt_43fce53788",
+   "strength": "soft",
+   "reason": "較大數值的長度計算需要直式"
+  },
+  {
+   "topicId": "twt_b84481d303",
+   "prerequisiteId": "twt_8fb9a8a122",
+   "strength": "soft",
+   "reason": "直接與間接比較的方法從長度遷移"
+  },
+  {
+   "topicId": "twt_b84481d303",
+   "prerequisiteId": "twt_c5ac476eaf",
+   "strength": "soft",
+   "reason": "個別單位測量的想法可遷移"
+  },
+  {
+   "topicId": "twt_97105ec714",
+   "prerequisiteId": "twt_f93a20728d",
+   "strength": "hard",
+   "reason": "先有時間詞彙才報讀時刻"
+  },
+  {
+   "topicId": "twt_97105ec714",
+   "prerequisiteId": "twt_19a4a82a17",
+   "strength": "hard",
+   "reason": "報讀分針需要5個一數"
+  },
+  {
+   "topicId": "twt_90329cb83e",
+   "prerequisiteId": "twt_f93a20728d",
+   "strength": "hard",
+   "reason": "建立在日期報讀經驗之上"
+  },
+  {
+   "topicId": "twt_18e125bc44",
+   "prerequisiteId": "twt_c953c29060",
+   "strength": "soft",
+   "reason": "操作經驗累積形體的直觀"
+  },
+  {
+   "topicId": "twt_18e125bc44",
+   "prerequisiteId": "twt_91b4a7601b",
+   "strength": "soft",
+   "reason": "堆疊活動凸顯立體特徵"
+  },
+  {
+   "topicId": "twt_33a06806f5",
+   "prerequisiteId": "twt_c953c29060",
+   "strength": "soft",
+   "reason": "描繪活動凸顯平面圖形輪廓"
+  },
+  {
+   "topicId": "twt_1a9372bb61",
+   "prerequisiteId": "twt_18e125bc44",
+   "strength": "hard",
+   "reason": "分類前須能辨認與描述特徵"
+  },
+  {
+   "topicId": "twt_1a9372bb61",
+   "prerequisiteId": "twt_33a06806f5",
+   "strength": "hard",
+   "reason": "分類對象包含平面圖形"
+  },
+  {
+   "topicId": "twt_1a9372bb61",
+   "prerequisiteId": "twt_13654c8d4c",
+   "strength": "hard",
+   "reason": "沿用一般物品分類的方法"
+  },
+  {
+   "topicId": "twt_6538c8605b",
+   "prerequisiteId": "twt_27fbc355ca",
+   "strength": "hard",
+   "reason": "作圖是測量的逆操作，同樣依賴直尺技能"
+  },
+  {
+   "topicId": "twt_17e7e86ed6",
+   "prerequisiteId": "twt_27fbc355ca",
+   "strength": "hard",
+   "reason": "邊長關係經由實測發現"
+  },
+  {
+   "topicId": "twt_17e7e86ed6",
+   "prerequisiteId": "twt_33a06806f5",
+   "strength": "hard",
+   "reason": "討論的對象是特殊平面圖形"
+  },
+  {
+   "topicId": "twt_17e7e86ed6",
+   "prerequisiteId": "twt_e94dac352a",
+   "strength": "soft",
+   "reason": "周長計算是長度加總"
+  },
+  {
+   "topicId": "twt_b7459d9ad5",
+   "prerequisiteId": "twt_8fb9a8a122",
+   "strength": "soft",
+   "reason": "比較方法自長度遷移"
+  },
+  {
+   "topicId": "twt_b7459d9ad5",
+   "prerequisiteId": "twt_33a06806f5",
+   "strength": "soft",
+   "reason": "面積的載體是平面圖形"
+  },
+  {
+   "topicId": "twt_6f297f2878",
+   "prerequisiteId": "twt_555e05af17",
+   "strength": "hard",
+   "reason": "符號表達既有的大小比較"
+  },
+  {
+   "topicId": "twt_6f297f2878",
+   "prerequisiteId": "twt_3f6fb789a1",
+   "strength": "soft",
+   "reason": "延續數學符號的使用經驗"
+  },
+  {
+   "topicId": "twt_6e54d6185e",
+   "prerequisiteId": "twt_07590bf2c9",
+   "strength": "hard",
+   "reason": "結合律綜合建立在交換律經驗上"
+  },
+  {
+   "topicId": "twt_6e54d6185e",
+   "prerequisiteId": "twt_4e6c99d4c5",
+   "strength": "soft",
+   "reason": "需流暢計算以檢驗不同順序"
+  },
+  {
+   "topicId": "twt_2ac22e7481",
+   "prerequisiteId": "twt_b02e12199d",
+   "strength": "hard",
+   "reason": "由陣列模型觀察乘法性質"
+  },
+  {
+   "topicId": "twt_5a3371e5f1",
+   "prerequisiteId": "twt_88abd9fcfa",
+   "strength": "hard",
+   "reason": "互逆關係連結加與減的意義"
+  },
+  {
+   "topicId": "twt_5a3371e5f1",
+   "prerequisiteId": "twt_928435c0c5",
+   "strength": "hard",
+   "reason": "互逆關係連結加與減的意義"
+  },
+  {
+   "topicId": "twt_5a3371e5f1",
+   "prerequisiteId": "twt_628e20e663",
+   "strength": "soft",
+   "reason": "驗算須讀寫對應算式"
+  },
+  {
+   "topicId": "twt_2c4882b1db",
+   "prerequisiteId": "twt_77f0edd369",
+   "strength": "hard",
+   "reason": "由整理他人給的物品進到主動蒐集資料"
+  },
+  {
+   "topicId": "twt_8bc6de37ef",
+   "prerequisiteId": "twt_13654c8d4c",
+   "strength": "hard",
+   "reason": "再分類是分類的疊代"
+  },
+  {
+   "topicId": "twt_8bc6de37ef",
+   "prerequisiteId": "twt_2c4882b1db",
+   "strength": "soft",
+   "reason": "常在資料整理情境中出現"
+  },
+  {
+   "topicId": "twt_f12ec4f5fd",
+   "prerequisiteId": "twt_c2b963631f",
+   "strength": "hard",
+   "reason": "千是位值系統的下一級延伸"
+  },
+  {
+   "topicId": "twt_33a82a05c6",
+   "prerequisiteId": "twt_f12ec4f5fd",
+   "strength": "hard",
+   "reason": "換算與比較需要千位概念"
+  },
+  {
+   "topicId": "twt_33a82a05c6",
+   "prerequisiteId": "twt_4e43778e7d",
+   "strength": "hard",
+   "reason": "方法由三位數直接推廣"
+  },
+  {
+   "topicId": "twt_dd22b85388",
+   "prerequisiteId": "twt_4000e0ed78",
+   "strength": "hard",
+   "reason": "演算法相同，進退位次數增加"
+  },
+  {
+   "topicId": "twt_dd22b85388",
+   "prerequisiteId": "twt_f12ec4f5fd",
+   "strength": "hard",
+   "reason": "四位數計算需要千位位值"
+  },
+  {
+   "topicId": "twt_92452f93ff",
+   "prerequisiteId": "twt_e90b75b40c",
+   "strength": "hard",
+   "reason": "直式每步都是基本乘法"
+  },
+  {
+   "topicId": "twt_92452f93ff",
+   "prerequisiteId": "twt_43fce53788",
+   "strength": "hard",
+   "reason": "部分積相加沿用加法直式"
+  },
+  {
+   "topicId": "twt_92452f93ff",
+   "prerequisiteId": "twt_cdf91d5e2b",
+   "strength": "soft",
+   "reason": "直式合理性用位值說明"
+  },
+  {
+   "topicId": "twt_ad0c934fd7",
+   "prerequisiteId": "twt_2d4c5f86b5",
+   "strength": "hard",
+   "reason": "除法正式化分裝與平分經驗"
+  },
+  {
+   "topicId": "twt_ad0c934fd7",
+   "prerequisiteId": "twt_b02e12199d",
+   "strength": "hard",
+   "reason": "除法以乘法為參照理解"
+  },
+  {
+   "topicId": "twt_a0ee63d908",
+   "prerequisiteId": "twt_ad0c934fd7",
+   "strength": "hard",
+   "reason": "餘數是除法情境的自然延伸"
+  },
+  {
+   "topicId": "twt_a0ee63d908",
+   "prerequisiteId": "twt_e90b75b40c",
+   "strength": "hard",
+   "reason": "找商依賴乘法事實"
+  },
+  {
+   "topicId": "twt_0c40b42b17",
+   "prerequisiteId": "twt_a0ee63d908",
+   "strength": "hard",
+   "reason": "直式每步都在處理帶餘除法"
+  },
+  {
+   "topicId": "twt_0c40b42b17",
+   "prerequisiteId": "twt_e90b75b40c",
+   "strength": "hard",
+   "reason": "估商需要乘法流暢"
+  },
+  {
+   "topicId": "twt_0c40b42b17",
+   "prerequisiteId": "twt_dd22b85388",
+   "strength": "soft",
+   "reason": "直式中的減法步驟"
+  },
+  {
+   "topicId": "twt_c7cbd20d7b",
+   "prerequisiteId": "twt_ad0c934fd7",
+   "strength": "hard",
+   "reason": "未知數問題需要除法概念"
+  },
+  {
+   "topicId": "twt_c7cbd20d7b",
+   "prerequisiteId": "twt_507e9bf214",
+   "strength": "hard",
+   "reason": "求未知數的核心是互逆"
+  },
+  {
+   "topicId": "twt_0294e7c3b8",
+   "prerequisiteId": "twt_6859f8609f",
+   "strength": "hard",
+   "reason": "題型結構延伸"
+  },
+  {
+   "topicId": "twt_0294e7c3b8",
+   "prerequisiteId": "twt_ad0c934fd7",
+   "strength": "hard",
+   "reason": "其中一步是除法"
+  },
+  {
+   "topicId": "twt_46ba351186",
+   "prerequisiteId": "twt_6615ff4180",
+   "strength": "hard",
+   "reason": "估算策略由加減擴充到乘除"
+  },
+  {
+   "topicId": "twt_46ba351186",
+   "prerequisiteId": "twt_92452f93ff",
+   "strength": "soft",
+   "reason": "要檢驗的對象是乘除計算"
+  },
+  {
+   "topicId": "twt_6a844cf2a0",
+   "prerequisiteId": "twt_7cabad3c16",
+   "strength": "hard",
+   "reason": "真分數是單位分數的累積"
+  },
+  {
+   "topicId": "twt_8d332c01a0",
+   "prerequisiteId": "twt_6a844cf2a0",
+   "strength": "hard",
+   "reason": "比較與加減的對象是幾分之幾"
+  },
+  {
+   "topicId": "twt_8fb1e6b92b",
+   "prerequisiteId": "twt_6a844cf2a0",
+   "strength": "hard",
+   "reason": "0.3的意義來自十分之三"
+  },
+  {
+   "topicId": "twt_8fb1e6b92b",
+   "prerequisiteId": "twt_64c69c8500",
+   "strength": "hard",
+   "reason": "十分位是位值系統向下延伸"
+  },
+  {
+   "topicId": "twt_93f5d282cf",
+   "prerequisiteId": "twt_8fb1e6b92b",
+   "strength": "hard",
+   "reason": "計算需要小數位值概念"
+  },
+  {
+   "topicId": "twt_93f5d282cf",
+   "prerequisiteId": "twt_43fce53788",
+   "strength": "soft",
+   "reason": "直式方法遷移"
+  },
+  {
+   "topicId": "twt_46ad67449b",
+   "prerequisiteId": "twt_27fbc355ca",
+   "strength": "hard",
+   "reason": "數線是尺的抽象化"
+  },
+  {
+   "topicId": "twt_46ad67449b",
+   "prerequisiteId": "twt_555e05af17",
+   "strength": "hard",
+   "reason": "數線位置對應數的大小"
+  },
+  {
+   "topicId": "twt_d04751861a",
+   "prerequisiteId": "twt_27fbc355ca",
+   "strength": "hard",
+   "reason": "毫米是公分的細分"
+  },
+  {
+   "topicId": "twt_30ab8817fd",
+   "prerequisiteId": "twt_33a06806f5",
+   "strength": "hard",
+   "reason": "角是圖形構成要素"
+  },
+  {
+   "topicId": "twt_3560187f28",
+   "prerequisiteId": "twt_b7459d9ad5",
+   "strength": "hard",
+   "reason": "標準單位承接個別單位比較"
+  },
+  {
+   "topicId": "twt_ef01ea6250",
+   "prerequisiteId": "twt_b84481d303",
+   "strength": "hard",
+   "reason": "標準單位承接直接間接比較"
+  },
+  {
+   "topicId": "twt_ef01ea6250",
+   "prerequisiteId": "twt_f12ec4f5fd",
+   "strength": "soft",
+   "reason": "1000毫升的換算需要千"
+  },
+  {
+   "topicId": "twt_96617a7911",
+   "prerequisiteId": "twt_b84481d303",
+   "strength": "hard",
+   "reason": "標準單位承接比較經驗"
+  },
+  {
+   "topicId": "twt_96617a7911",
+   "prerequisiteId": "twt_f12ec4f5fd",
+   "strength": "soft",
+   "reason": "1000公克的換算需要千"
+  },
+  {
+   "topicId": "twt_89d511e7e5",
+   "prerequisiteId": "twt_97105ec714",
+   "strength": "hard",
+   "reason": "先會報讀才處理時間計算"
+  },
+  {
+   "topicId": "twt_89d511e7e5",
+   "prerequisiteId": "twt_90329cb83e",
+   "strength": "soft",
+   "reason": "時間單位系統的整合"
+  },
+  {
+   "topicId": "twt_cebba0b9de",
+   "prerequisiteId": "twt_33a06806f5",
+   "strength": "hard",
+   "reason": "由直觀辨認進到特徵定義"
+  },
+  {
+   "topicId": "twt_cebba0b9de",
+   "prerequisiteId": "twt_30ab8817fd",
+   "strength": "hard",
+   "reason": "定義用到直角"
+  },
+  {
+   "topicId": "twt_cebba0b9de",
+   "prerequisiteId": "twt_17e7e86ed6",
+   "strength": "soft",
+   "reason": "邊長關係的先前經驗"
+  },
+  {
+   "topicId": "twt_73e0a208a2",
+   "prerequisiteId": "twt_33a06806f5",
+   "strength": "hard",
+   "reason": "由直觀的圓進到要素分析"
+  },
+  {
+   "topicId": "twt_73e0a208a2",
+   "prerequisiteId": "twt_27fbc355ca",
+   "strength": "hard",
+   "reason": "指定半徑畫圓需要測量"
+  },
+  {
+   "topicId": "twt_4290e1b18e",
+   "prerequisiteId": "twt_91b4a7601b",
+   "strength": "hard",
+   "reason": "延續圖形組合分解經驗"
+  },
+  {
+   "topicId": "twt_4290e1b18e",
+   "prerequisiteId": "twt_18e125bc44",
+   "strength": "soft",
+   "reason": "展開圖連結立體形體"
+  },
+  {
+   "topicId": "twt_507e9bf214",
+   "prerequisiteId": "twt_b02e12199d",
+   "strength": "hard",
+   "reason": "互逆連結乘與除的意義"
+  },
+  {
+   "topicId": "twt_507e9bf214",
+   "prerequisiteId": "twt_ad0c934fd7",
+   "strength": "hard",
+   "reason": "互逆連結乘與除的意義"
+  },
+  {
+   "topicId": "twt_507e9bf214",
+   "prerequisiteId": "twt_5a3371e5f1",
+   "strength": "soft",
+   "reason": "互逆思想由加減遷移"
+  },
+  {
+   "topicId": "twt_fbac484ebe",
+   "prerequisiteId": "twt_19a4a82a17",
+   "strength": "soft",
+   "reason": "跳數是最早的數列經驗"
+  },
+  {
+   "topicId": "twt_2c722b0ebd",
+   "prerequisiteId": "twt_2c4882b1db",
+   "strength": "hard",
+   "reason": "表格是分類記錄的正式化"
+  },
+  {
+   "topicId": "twt_183bd2fa3b",
+   "prerequisiteId": "twt_f12ec4f5fd",
+   "strength": "hard",
+   "reason": "位值系統繼續向上延伸"
+  },
+  {
+   "topicId": "twt_183bd2fa3b",
+   "prerequisiteId": "twt_33a82a05c6",
+   "strength": "soft",
+   "reason": "大數讀寫沿用換算經驗"
+  },
+  {
+   "topicId": "twt_e653860c2e",
+   "prerequisiteId": "twt_92452f93ff",
+   "strength": "hard",
+   "reason": "演算法推廣到多位乘數"
+  },
+  {
+   "topicId": "twt_e653860c2e",
+   "prerequisiteId": "twt_183bd2fa3b",
+   "strength": "soft",
+   "reason": "部分積位值意義需要大數"
+  },
+  {
+   "topicId": "twt_ba209b8eca",
+   "prerequisiteId": "twt_0c40b42b17",
+   "strength": "hard",
+   "reason": "演算法推廣到二位除數"
+  },
+  {
+   "topicId": "twt_ba209b8eca",
+   "prerequisiteId": "twt_e653860c2e",
+   "strength": "soft",
+   "reason": "估商調商依賴乘法"
+  },
+  {
+   "topicId": "twt_eb992929a4",
+   "prerequisiteId": "twt_0294e7c3b8",
+   "strength": "hard",
+   "reason": "題型延伸到連除"
+  },
+  {
+   "topicId": "twt_eb992929a4",
+   "prerequisiteId": "twt_ba209b8eca",
+   "strength": "soft",
+   "reason": "數字變大需直式支援"
+  },
+  {
+   "topicId": "twt_752edbd419",
+   "prerequisiteId": "twt_183bd2fa3b",
+   "strength": "hard",
+   "reason": "取概數以位值為基準"
+  },
+  {
+   "topicId": "twt_752edbd419",
+   "prerequisiteId": "twt_46ba351186",
+   "strength": "soft",
+   "reason": "估算經驗引出概數需求"
+  },
+  {
+   "topicId": "twt_f534366341",
+   "prerequisiteId": "twt_752edbd419",
+   "strength": "hard",
+   "reason": "先會取概數才能用概數估算"
+  },
+  {
+   "topicId": "twt_a2e53a4367",
+   "prerequisiteId": "twt_6a844cf2a0",
+   "strength": "hard",
+   "reason": "分數詞彙體系的擴充"
+  },
+  {
+   "topicId": "twt_a2e53a4367",
+   "prerequisiteId": "twt_8d332c01a0",
+   "strength": "soft",
+   "reason": "累積超過1的分數經驗"
+  },
+  {
+   "topicId": "twt_464c31d505",
+   "prerequisiteId": "twt_a2e53a4367",
+   "strength": "hard",
+   "reason": "帶分數運算需要互換"
+  },
+  {
+   "topicId": "twt_464c31d505",
+   "prerequisiteId": "twt_8d332c01a0",
+   "strength": "hard",
+   "reason": "由簡單情形推廣"
+  },
+  {
+   "topicId": "twt_464c31d505",
+   "prerequisiteId": "twt_b02e12199d",
+   "strength": "soft",
+   "reason": "整數倍沿用倍的概念"
+  },
+  {
+   "topicId": "twt_d9048acc4e",
+   "prerequisiteId": "twt_6a844cf2a0",
+   "strength": "hard",
+   "reason": "等值判斷的對象是分數"
+  },
+  {
+   "topicId": "twt_d9048acc4e",
+   "prerequisiteId": "twt_2d4c5f86b5",
+   "strength": "soft",
+   "reason": "等分操作支撐等值直觀"
+  },
+  {
+   "topicId": "twt_9a15eadb30",
+   "prerequisiteId": "twt_d9048acc4e",
+   "strength": "hard",
+   "reason": "異分母處理的核心是等值轉換"
+  },
+  {
+   "topicId": "twt_9720f7ab5b",
+   "prerequisiteId": "twt_8fb1e6b92b",
+   "strength": "hard",
+   "reason": "互換需要小數位值"
+  },
+  {
+   "topicId": "twt_9720f7ab5b",
+   "prerequisiteId": "twt_d9048acc4e",
+   "strength": "soft",
+   "reason": "互換是等值表示的延伸"
+  },
+  {
+   "topicId": "twt_1cd04aead9",
+   "prerequisiteId": "twt_8fb1e6b92b",
+   "strength": "hard",
+   "reason": "百分位是十分位的延伸"
+  },
+  {
+   "topicId": "twt_dc73e4ae16",
+   "prerequisiteId": "twt_1cd04aead9",
+   "strength": "hard",
+   "reason": "計算需要百分位概念"
+  },
+  {
+   "topicId": "twt_dc73e4ae16",
+   "prerequisiteId": "twt_93f5d282cf",
+   "strength": "hard",
+   "reason": "直式方法延伸"
+  },
+  {
+   "topicId": "twt_8634562874",
+   "prerequisiteId": "twt_46ad67449b",
+   "strength": "hard",
+   "reason": "數線經驗擴充到分小數"
+  },
+  {
+   "topicId": "twt_8634562874",
+   "prerequisiteId": "twt_9720f7ab5b",
+   "strength": "hard",
+   "reason": "同點多重表示需要互換"
+  },
+  {
+   "topicId": "twt_884c39afca",
+   "prerequisiteId": "twt_99375ebe6c",
+   "strength": "hard",
+   "reason": "公里建立在公尺之上"
+  },
+  {
+   "topicId": "twt_884c39afca",
+   "prerequisiteId": "twt_f12ec4f5fd",
+   "strength": "soft",
+   "reason": "1000公尺換算需要千"
+  },
+  {
+   "topicId": "twt_5b2563b34e",
+   "prerequisiteId": "twt_30ab8817fd",
+   "strength": "hard",
+   "reason": "標準單位承接角的直觀比較"
+  },
+  {
+   "topicId": "twt_0b8c70a6b7",
+   "prerequisiteId": "twt_5b2563b34e",
+   "strength": "hard",
+   "reason": "大角度以度的合成認識"
+  },
+  {
+   "topicId": "twt_802ebaf436",
+   "prerequisiteId": "twt_3560187f28",
+   "strength": "hard",
+   "reason": "面積單位系統的延伸"
+  },
+  {
+   "topicId": "twt_746c716406",
+   "prerequisiteId": "twt_3560187f28",
+   "strength": "soft",
+   "reason": "由面積單位類比體積單位"
+  },
+  {
+   "topicId": "twt_746c716406",
+   "prerequisiteId": "twt_18e125bc44",
+   "strength": "hard",
+   "reason": "體積的載體是立體形體"
+  },
+  {
+   "topicId": "twt_27efffa011",
+   "prerequisiteId": "twt_89d511e7e5",
+   "strength": "hard",
+   "reason": "時間計算的情境擴充"
+  },
+  {
+   "topicId": "twt_8e50ffe26c",
+   "prerequisiteId": "twt_0b8c70a6b7",
+   "strength": "hard",
+   "reason": "旋轉角需要180到360度"
+  },
+  {
+   "topicId": "twt_8e50ffe26c",
+   "prerequisiteId": "twt_97105ec714",
+   "strength": "soft",
+   "reason": "以鐘面為模型"
+  },
+  {
+   "topicId": "twt_d43b971235",
+   "prerequisiteId": "twt_3560187f28",
+   "strength": "hard",
+   "reason": "公式建立在單位點數上"
+  },
+  {
+   "topicId": "twt_d43b971235",
+   "prerequisiteId": "twt_cebba0b9de",
+   "strength": "hard",
+   "reason": "公式的對象是正長方形"
+  },
+  {
+   "topicId": "twt_d43b971235",
+   "prerequisiteId": "twt_e653860c2e",
+   "strength": "soft",
+   "reason": "較大邊長需要乘法"
+  },
+  {
+   "topicId": "twt_f173de0cc7",
+   "prerequisiteId": "twt_d43b971235",
+   "strength": "hard",
+   "reason": "複合圖形拆成基本圖形"
+  },
+  {
+   "topicId": "twt_f173de0cc7",
+   "prerequisiteId": "twt_4290e1b18e",
+   "strength": "soft",
+   "reason": "分割重組的操作經驗"
+  },
+  {
+   "topicId": "twt_c341d374ce",
+   "prerequisiteId": "twt_746c716406",
+   "strength": "hard",
+   "reason": "計數單位是立方公分"
+  },
+  {
+   "topicId": "twt_a4aaa02d71",
+   "prerequisiteId": "twt_30ab8817fd",
+   "strength": "hard",
+   "reason": "垂直以直角定義"
+  },
+  {
+   "topicId": "twt_e35b9d3161",
+   "prerequisiteId": "twt_4290e1b18e",
+   "strength": "soft",
+   "reason": "疊合操作經驗"
+  },
+  {
+   "topicId": "twt_e35b9d3161",
+   "prerequisiteId": "twt_33a06806f5",
+   "strength": "hard",
+   "reason": "全等判斷的對象是圖形"
+  },
+  {
+   "topicId": "twt_c4cfe3272e",
+   "prerequisiteId": "twt_30ab8817fd",
+   "strength": "hard",
+   "reason": "以角特徵分類三角形"
+  },
+  {
+   "topicId": "twt_c4cfe3272e",
+   "prerequisiteId": "twt_27fbc355ca",
+   "strength": "soft",
+   "reason": "作圖需要測量"
+  },
+  {
+   "topicId": "twt_c7ccc5c39e",
+   "prerequisiteId": "twt_a4aaa02d71",
+   "strength": "hard",
+   "reason": "平行是四邊形分類的要素"
+  },
+  {
+   "topicId": "twt_c7ccc5c39e",
+   "prerequisiteId": "twt_cebba0b9de",
+   "strength": "hard",
+   "reason": "特殊四邊形體系的擴充"
+  },
+  {
+   "topicId": "twt_77ea6768c1",
+   "prerequisiteId": "twt_0294e7c3b8",
+   "strength": "hard",
+   "reason": "併式的對象是兩步驟問題"
+  },
+  {
+   "topicId": "twt_77ea6768c1",
+   "prerequisiteId": "twt_628e20e663",
+   "strength": "soft",
+   "reason": "算式書寫慣例的延伸"
+  },
+  {
+   "topicId": "twt_cf73ef14a6",
+   "prerequisiteId": "twt_77ea6768c1",
+   "strength": "hard",
+   "reason": "規律應用於混合算式"
+  },
+  {
+   "topicId": "twt_cf73ef14a6",
+   "prerequisiteId": "twt_6e54d6185e",
+   "strength": "soft",
+   "reason": "運算律經驗的延伸"
+  },
+  {
+   "topicId": "twt_55b2f3e81c",
+   "prerequisiteId": "twt_d43b971235",
+   "strength": "hard",
+   "reason": "面積公式是文字公式的典型例"
+  },
+  {
+   "topicId": "twt_1860d35ecf",
+   "prerequisiteId": "twt_fbac484ebe",
+   "strength": "hard",
+   "reason": "模式觀察由一維進到二維"
+  },
+  {
+   "topicId": "twt_1860d35ecf",
+   "prerequisiteId": "twt_e90b75b40c",
+   "strength": "soft",
+   "reason": "乘法表是二維模式素材"
+  },
+  {
+   "topicId": "twt_b190811061",
+   "prerequisiteId": "twt_2c722b0ebd",
+   "strength": "hard",
+   "reason": "統計圖承接表格經驗"
+  },
+  {
+   "topicId": "twt_55c12d2865",
+   "prerequisiteId": "twt_183bd2fa3b",
+   "strength": "hard",
+   "reason": "向上延伸到兆"
+  },
+  {
+   "topicId": "twt_55c12d2865",
+   "prerequisiteId": "twt_1cd04aead9",
+   "strength": "hard",
+   "reason": "向下整合到千分位"
+  },
+  {
+   "topicId": "twt_2060f744af",
+   "prerequisiteId": "twt_eb992929a4",
+   "strength": "hard",
+   "reason": "步驟數擴充"
+  },
+  {
+   "topicId": "twt_2060f744af",
+   "prerequisiteId": "twt_77ea6768c1",
+   "strength": "hard",
+   "reason": "多步驟解題需併式能力"
+  },
+  {
+   "topicId": "twt_38aef4ec13",
+   "prerequisiteId": "twt_ad0c934fd7",
+   "strength": "hard",
+   "reason": "因數以整除定義"
+  },
+  {
+   "topicId": "twt_38aef4ec13",
+   "prerequisiteId": "twt_e90b75b40c",
+   "strength": "hard",
+   "reason": "找因數倍數依賴乘法事實"
+  },
+  {
+   "topicId": "twt_c12b5ef3aa",
+   "prerequisiteId": "twt_38aef4ec13",
+   "strength": "hard",
+   "reason": "公因數是因數概念的交集"
+  },
+  {
+   "topicId": "twt_0d45342ab1",
+   "prerequisiteId": "twt_d9048acc4e",
+   "strength": "hard",
+   "reason": "約分擴分是等值分數的操作化"
+  },
+  {
+   "topicId": "twt_0d45342ab1",
+   "prerequisiteId": "twt_38aef4ec13",
+   "strength": "hard",
+   "reason": "約分需要公因數"
+  },
+  {
+   "topicId": "twt_75814f790b",
+   "prerequisiteId": "twt_0d45342ab1",
+   "strength": "hard",
+   "reason": "通分即擴分成同分母"
+  },
+  {
+   "topicId": "twt_75814f790b",
+   "prerequisiteId": "twt_c12b5ef3aa",
+   "strength": "hard",
+   "reason": "公分母是公倍數"
+  },
+  {
+   "topicId": "twt_75814f790b",
+   "prerequisiteId": "twt_9a15eadb30",
+   "strength": "hard",
+   "reason": "由簡單情形推廣到一般"
+  },
+  {
+   "topicId": "twt_1dcad04c4d",
+   "prerequisiteId": "twt_464c31d505",
+   "strength": "hard",
+   "reason": "由整數倍推進到分數倍"
+  },
+  {
+   "topicId": "twt_1dcad04c4d",
+   "prerequisiteId": "twt_0d45342ab1",
+   "strength": "hard",
+   "reason": "計算中用約分簡化"
+  },
+  {
+   "topicId": "twt_ade995f9e5",
+   "prerequisiteId": "twt_ad0c934fd7",
+   "strength": "hard",
+   "reason": "重新詮釋整數除法的結果"
+  },
+  {
+   "topicId": "twt_ade995f9e5",
+   "prerequisiteId": "twt_6a844cf2a0",
+   "strength": "hard",
+   "reason": "結果以分數表示"
+  },
+  {
+   "topicId": "twt_d56d469d67",
+   "prerequisiteId": "twt_ade995f9e5",
+   "strength": "soft",
+   "reason": "除與分數關係的經驗"
+  },
+  {
+   "topicId": "twt_d56d469d67",
+   "prerequisiteId": "twt_1dcad04c4d",
+   "strength": "hard",
+   "reason": "最終轉化為乘以單位分數"
+  },
+  {
+   "topicId": "twt_9b3f410ec2",
+   "prerequisiteId": "twt_dc73e4ae16",
+   "strength": "hard",
+   "reason": "小數運算經驗延伸"
+  },
+  {
+   "topicId": "twt_9b3f410ec2",
+   "prerequisiteId": "twt_e653860c2e",
+   "strength": "hard",
+   "reason": "直式計算的基礎"
+  },
+  {
+   "topicId": "twt_9b3f410ec2",
+   "prerequisiteId": "twt_9720f7ab5b",
+   "strength": "soft",
+   "reason": "以分數理解小數相乘的意義"
+  },
+  {
+   "topicId": "twt_75d22d6a30",
+   "prerequisiteId": "twt_9b3f410ec2",
+   "strength": "soft",
+   "reason": "小數位值處理經驗"
+  },
+  {
+   "topicId": "twt_75d22d6a30",
+   "prerequisiteId": "twt_ba209b8eca",
+   "strength": "hard",
+   "reason": "直式方法延伸"
+  },
+  {
+   "topicId": "twt_75d22d6a30",
+   "prerequisiteId": "twt_1cd04aead9",
+   "strength": "hard",
+   "reason": "商的小數位值"
+  },
+  {
+   "topicId": "twt_24d96b1824",
+   "prerequisiteId": "twt_ade995f9e5",
+   "strength": "hard",
+   "reason": "比率是相除結果的詮釋"
+  },
+  {
+   "topicId": "twt_24d96b1824",
+   "prerequisiteId": "twt_9720f7ab5b",
+   "strength": "hard",
+   "reason": "百分率連結分數與小數"
+  },
+  {
+   "topicId": "twt_f742f09725",
+   "prerequisiteId": "twt_752edbd419",
+   "strength": "hard",
+   "reason": "方法由整數推廣到小數"
+  },
+  {
+   "topicId": "twt_f742f09725",
+   "prerequisiteId": "twt_75d22d6a30",
+   "strength": "soft",
+   "reason": "除不盡引出取概數需求"
+  },
+  {
+   "topicId": "twt_6edb0a514a",
+   "prerequisiteId": "twt_802ebaf436",
+   "strength": "hard",
+   "reason": "面積單位系統向上延伸"
+  },
+  {
+   "topicId": "twt_6edb0a514a",
+   "prerequisiteId": "twt_752edbd419",
+   "strength": "soft",
+   "reason": "大面積常用概數表達"
+  },
+  {
+   "topicId": "twt_6e110c08d0",
+   "prerequisiteId": "twt_96617a7911",
+   "strength": "hard",
+   "reason": "重量單位向上延伸"
+  },
+  {
+   "topicId": "twt_f678604de3",
+   "prerequisiteId": "twt_746c716406",
+   "strength": "hard",
+   "reason": "體積單位向上延伸"
+  },
+  {
+   "topicId": "twt_e20628800b",
+   "prerequisiteId": "twt_ef01ea6250",
+   "strength": "hard",
+   "reason": "整合容量單位"
+  },
+  {
+   "topicId": "twt_e20628800b",
+   "prerequisiteId": "twt_67f1e3d574",
+   "strength": "hard",
+   "reason": "容積用內部體積計算"
+  },
+  {
+   "topicId": "twt_8cdd8d9169",
+   "prerequisiteId": "twt_27efffa011",
+   "strength": "hard",
+   "reason": "時間計算延伸到乘除"
+  },
+  {
+   "topicId": "twt_8cdd8d9169",
+   "prerequisiteId": "twt_9b3f410ec2",
+   "strength": "soft",
+   "reason": "以小數處理時間量"
+  },
+  {
+   "topicId": "twt_946d2986d2",
+   "prerequisiteId": "twt_c4cfe3272e",
+   "strength": "hard",
+   "reason": "由辨認進到性質推理"
+  },
+  {
+   "topicId": "twt_946d2986d2",
+   "prerequisiteId": "twt_0b8c70a6b7",
+   "strength": "hard",
+   "reason": "內角和以角度合成理解"
+  },
+  {
+   "topicId": "twt_8683fff164",
+   "prerequisiteId": "twt_c7ccc5c39e",
+   "strength": "hard",
+   "reason": "由辨認進到性質推理"
+  },
+  {
+   "topicId": "twt_8683fff164",
+   "prerequisiteId": "twt_946d2986d2",
+   "strength": "hard",
+   "reason": "四邊形內角和由三角形推得"
+  },
+  {
+   "topicId": "twt_7a66c13965",
+   "prerequisiteId": "twt_d43b971235",
+   "strength": "hard",
+   "reason": "以長方形面積為基準推導"
+  },
+  {
+   "topicId": "twt_7a66c13965",
+   "prerequisiteId": "twt_e35b9d3161",
+   "strength": "hard",
+   "reason": "推導用兩個全等三角形"
+  },
+  {
+   "topicId": "twt_3380ef67b2",
+   "prerequisiteId": "twt_7a66c13965",
+   "strength": "hard",
+   "reason": "切割重組互相支援"
+  },
+  {
+   "topicId": "twt_3380ef67b2",
+   "prerequisiteId": "twt_f173de0cc7",
+   "strength": "soft",
+   "reason": "切割補足的策略經驗"
+  },
+  {
+   "topicId": "twt_05db410e1e",
+   "prerequisiteId": "twt_73e0a208a2",
+   "strength": "hard",
+   "reason": "扇形是圓的一部分"
+  },
+  {
+   "topicId": "twt_05db410e1e",
+   "prerequisiteId": "twt_0b8c70a6b7",
+   "strength": "hard",
+   "reason": "圓心角需要360度概念"
+  },
+  {
+   "topicId": "twt_05db410e1e",
+   "prerequisiteId": "twt_6a844cf2a0",
+   "strength": "hard",
+   "reason": "幾分之幾圓連結分數"
+  },
+  {
+   "topicId": "twt_7b85e08708",
+   "prerequisiteId": "twt_e35b9d3161",
+   "strength": "hard",
+   "reason": "對稱的兩半互相全等"
+  },
+  {
+   "topicId": "twt_67f1e3d574",
+   "prerequisiteId": "twt_c341d374ce",
+   "strength": "hard",
+   "reason": "公式化點數經驗"
+  },
+  {
+   "topicId": "twt_67f1e3d574",
+   "prerequisiteId": "twt_d43b971235",
+   "strength": "hard",
+   "reason": "表面積需要面的面積"
+  },
+  {
+   "topicId": "twt_184d59923b",
+   "prerequisiteId": "twt_a4aaa02d71",
+   "strength": "hard",
+   "reason": "垂直平行概念推廣到空間"
+  },
+  {
+   "topicId": "twt_184d59923b",
+   "prerequisiteId": "twt_18e125bc44",
+   "strength": "hard",
+   "reason": "討論對象是立體形體"
+  },
+  {
+   "topicId": "twt_aaf4a5a294",
+   "prerequisiteId": "twt_18e125bc44",
+   "strength": "hard",
+   "reason": "形體體系的精緻化"
+  },
+  {
+   "topicId": "twt_aaf4a5a294",
+   "prerequisiteId": "twt_4290e1b18e",
+   "strength": "soft",
+   "reason": "以展開圖認識柱體"
+  },
+  {
+   "topicId": "twt_b293d85e62",
+   "prerequisiteId": "twt_77ea6768c1",
+   "strength": "hard",
+   "reason": "併式步驟擴充"
+  },
+  {
+   "topicId": "twt_b293d85e62",
+   "prerequisiteId": "twt_2060f744af",
+   "strength": "soft",
+   "reason": "平均是多步驟解題的應用"
+  },
+  {
+   "topicId": "twt_0c8f7661a0",
+   "prerequisiteId": "twt_cf73ef14a6",
+   "strength": "hard",
+   "reason": "計算規律體系的擴充"
+  },
+  {
+   "topicId": "twt_0c8f7661a0",
+   "prerequisiteId": "twt_e653860c2e",
+   "strength": "soft",
+   "reason": "直式乘法隱含分配律"
+  },
+  {
+   "topicId": "twt_74edc5e77b",
+   "prerequisiteId": "twt_55b2f3e81c",
+   "strength": "hard",
+   "reason": "由文字公式進到符號公式"
+  },
+  {
+   "topicId": "twt_b98fe6604c",
+   "prerequisiteId": "twt_b190811061",
+   "strength": "hard",
+   "reason": "由報讀進到製作"
+  },
+  {
+   "topicId": "twt_a048ededa7",
+   "prerequisiteId": "twt_38aef4ec13",
+   "strength": "hard",
+   "reason": "質數以因數個數定義"
+  },
+  {
+   "topicId": "twt_55ebe51c91",
+   "prerequisiteId": "twt_a048ededa7",
+   "strength": "hard",
+   "reason": "短除法以質因數為基礎"
+  },
+  {
+   "topicId": "twt_55ebe51c91",
+   "prerequisiteId": "twt_c12b5ef3aa",
+   "strength": "hard",
+   "reason": "由列舉法進到系統方法"
+  },
+  {
+   "topicId": "twt_889bab748b",
+   "prerequisiteId": "twt_d56d469d67",
+   "strength": "hard",
+   "reason": "除法推廣到除以分數"
+  },
+  {
+   "topicId": "twt_889bab748b",
+   "prerequisiteId": "twt_1dcad04c4d",
+   "strength": "hard",
+   "reason": "倒數規則需要分數乘法"
+  },
+  {
+   "topicId": "twt_2307751560",
+   "prerequisiteId": "twt_75d22d6a30",
+   "strength": "hard",
+   "reason": "推廣到除數為小數"
+  },
+  {
+   "topicId": "twt_2307751560",
+   "prerequisiteId": "twt_9b3f410ec2",
+   "strength": "soft",
+   "reason": "小數點移動的合理性以乘法理解"
+  },
+  {
+   "topicId": "twt_91f6de7364",
+   "prerequisiteId": "twt_75814f790b",
+   "strength": "hard",
+   "reason": "應用題需要分數加減"
+  },
+  {
+   "topicId": "twt_91f6de7364",
+   "prerequisiteId": "twt_889bab748b",
+   "strength": "hard",
+   "reason": "應用題需要分數乘除"
+  },
+  {
+   "topicId": "twt_91f6de7364",
+   "prerequisiteId": "twt_2307751560",
+   "strength": "hard",
+   "reason": "應用題需要小數乘除"
+  },
+  {
+   "topicId": "twt_91f6de7364",
+   "prerequisiteId": "twt_f742f09725",
+   "strength": "soft",
+   "reason": "用概數檢驗答案"
+  },
+  {
+   "topicId": "twt_1284ece8df",
+   "prerequisiteId": "twt_ade995f9e5",
+   "strength": "hard",
+   "reason": "比值即相除的結果"
+  },
+  {
+   "topicId": "twt_1284ece8df",
+   "prerequisiteId": "twt_24d96b1824",
+   "strength": "hard",
+   "reason": "比是比率概念的形式化"
+  },
+  {
+   "topicId": "twt_3ab5de08a0",
+   "prerequisiteId": "twt_1284ece8df",
+   "strength": "hard",
+   "reason": "相等的比建立在比值上"
+  },
+  {
+   "topicId": "twt_3ab5de08a0",
+   "prerequisiteId": "twt_0d45342ab1",
+   "strength": "hard",
+   "reason": "相等的比與等值分數同構"
+  },
+  {
+   "topicId": "twt_1d146ac25f",
+   "prerequisiteId": "twt_1284ece8df",
+   "strength": "hard",
+   "reason": "速度是異類量的比值"
+  },
+  {
+   "topicId": "twt_1d146ac25f",
+   "prerequisiteId": "twt_8cdd8d9169",
+   "strength": "hard",
+   "reason": "速度計算涉及時間量"
+  },
+  {
+   "topicId": "twt_8b565dfb0a",
+   "prerequisiteId": "twt_1284ece8df",
+   "strength": "hard",
+   "reason": "倍數關係的雙向詮釋"
+  },
+  {
+   "topicId": "twt_8b565dfb0a",
+   "prerequisiteId": "twt_1dcad04c4d",
+   "strength": "soft",
+   "reason": "交換基準涉及分數倍"
+  },
+  {
+   "topicId": "twt_7a4e14ca1b",
+   "prerequisiteId": "twt_2060f744af",
+   "strength": "hard",
+   "reason": "列式解題是多步驟的進階"
+  },
+  {
+   "topicId": "twt_7a4e14ca1b",
+   "prerequisiteId": "twt_a199d2d76e",
+   "strength": "hard",
+   "reason": "列式前先看出關係"
+  },
+  {
+   "topicId": "twt_c696a44bcb",
+   "prerequisiteId": "twt_3ab5de08a0",
+   "strength": "hard",
+   "reason": "縮放即對應邊成比例"
+  },
+  {
+   "topicId": "twt_c696a44bcb",
+   "prerequisiteId": "twt_e35b9d3161",
+   "strength": "soft",
+   "reason": "由全等（1倍）推廣到相似"
+  },
+  {
+   "topicId": "twt_8c6758611d",
+   "prerequisiteId": "twt_c696a44bcb",
+   "strength": "hard",
+   "reason": "比例尺是縮小圖的應用"
+  },
+  {
+   "topicId": "twt_8c6758611d",
+   "prerequisiteId": "twt_884c39afca",
+   "strength": "hard",
+   "reason": "實際距離需要長度換算"
+  },
+  {
+   "topicId": "twt_38458f1cf1",
+   "prerequisiteId": "twt_73e0a208a2",
+   "strength": "hard",
+   "reason": "圓周長以直徑為基準"
+  },
+  {
+   "topicId": "twt_38458f1cf1",
+   "prerequisiteId": "twt_1284ece8df",
+   "strength": "soft",
+   "reason": "圓周率是圓周長與直徑的比值"
+  },
+  {
+   "topicId": "twt_289f580978",
+   "prerequisiteId": "twt_38458f1cf1",
+   "strength": "hard",
+   "reason": "圓面積公式用到圓周率"
+  },
+  {
+   "topicId": "twt_289f580978",
+   "prerequisiteId": "twt_05db410e1e",
+   "strength": "hard",
+   "reason": "扇形計算以幾分之幾圓處理"
+  },
+  {
+   "topicId": "twt_289f580978",
+   "prerequisiteId": "twt_3380ef67b2",
+   "strength": "soft",
+   "reason": "分割重組策略的延伸"
+  },
+  {
+   "topicId": "twt_4d25194c3b",
+   "prerequisiteId": "twt_67f1e3d574",
+   "strength": "hard",
+   "reason": "公式推廣到一般柱體"
+  },
+  {
+   "topicId": "twt_4d25194c3b",
+   "prerequisiteId": "twt_289f580978",
+   "strength": "hard",
+   "reason": "圓柱底面積需要圓面積"
+  },
+  {
+   "topicId": "twt_4d25194c3b",
+   "prerequisiteId": "twt_aaf4a5a294",
+   "strength": "hard",
+   "reason": "計算對象是柱體"
+  },
+  {
+   "topicId": "twt_67c4a35c21",
+   "prerequisiteId": "twt_0c8f7661a0",
+   "strength": "hard",
+   "reason": "規律體系的總整理"
+  },
+  {
+   "topicId": "twt_67c4a35c21",
+   "prerequisiteId": "twt_889bab748b",
+   "strength": "soft",
+   "reason": "確認分數也適用相同規律"
+  },
+  {
+   "topicId": "twt_a199d2d76e",
+   "prerequisiteId": "twt_1860d35ecf",
+   "strength": "hard",
+   "reason": "模式推理的深化"
+  },
+  {
+   "topicId": "twt_33bbd68ba5",
+   "prerequisiteId": "twt_74edc5e77b",
+   "strength": "hard",
+   "reason": "符號表示經驗的延伸"
+  },
+  {
+   "topicId": "twt_33bbd68ba5",
+   "prerequisiteId": "twt_a199d2d76e",
+   "strength": "hard",
+   "reason": "先觀察出關係才能表示"
+  },
+  {
+   "topicId": "twt_f0c0262183",
+   "prerequisiteId": "twt_b190811061",
+   "strength": "hard",
+   "reason": "統計圖體系的擴充"
+  },
+  {
+   "topicId": "twt_f0c0262183",
+   "prerequisiteId": "twt_24d96b1824",
+   "strength": "hard",
+   "reason": "圓形圖以百分率分配"
+  },
+  {
+   "topicId": "twt_f0c0262183",
+   "prerequisiteId": "twt_05db410e1e",
+   "strength": "soft",
+   "reason": "圓形圖的分區是扇形"
+  },
+  {
+   "topicId": "twt_073b835a90",
+   "prerequisiteId": "twt_f0c0262183",
+   "strength": "soft",
+   "reason": "從統計圖表資料出發"
+  },
+  {
+   "topicId": "twt_073b835a90",
+   "prerequisiteId": "twt_24d96b1824",
+   "strength": "soft",
+   "reason": "可能性大小的比較近似比率直觀"
+  },
+  {
+   "topicId": "twt_c2346dacfc",
+   "prerequisiteId": "twt_9e20ba00a8",
+   "strength": "hard",
+   "reason": "標調的前提是熟悉符號"
+  },
+  {
+   "topicId": "twt_70d769f9a7",
+   "prerequisiteId": "twt_9e20ba00a8",
+   "strength": "hard",
+   "reason": "拼讀的元素是聲符與韻符"
+  },
+  {
+   "topicId": "twt_70d769f9a7",
+   "prerequisiteId": "twt_c2346dacfc",
+   "strength": "hard",
+   "reason": "拼出的音節需帶聲調"
+  },
+  {
+   "topicId": "twt_8672e58398",
+   "prerequisiteId": "twt_70d769f9a7",
+   "strength": "hard",
+   "reason": "三拼是二拼的擴充"
+  },
+  {
+   "topicId": "twt_7c033ad885",
+   "prerequisiteId": "twt_8672e58398",
+   "strength": "hard",
+   "reason": "記錄需完整拼音能力"
+  },
+  {
+   "topicId": "twt_4078f2b8c7",
+   "prerequisiteId": "twt_8672e58398",
+   "strength": "hard",
+   "reason": "閱讀需流暢拼讀"
+  },
+  {
+   "topicId": "twt_a4ee5b591a",
+   "prerequisiteId": "twt_4078f2b8c7",
+   "strength": "hard",
+   "reason": "在閱讀情境中以音帶字"
+  },
+  {
+   "topicId": "twt_880b20fc6d",
+   "prerequisiteId": "twt_8c40994dc8",
+   "strength": "soft",
+   "reason": "正確姿勢利於運筆"
+  },
+  {
+   "topicId": "twt_5a3dabc57b",
+   "prerequisiteId": "twt_a4ee5b591a",
+   "strength": "soft",
+   "reason": "注音是識字的鷹架"
+  },
+  {
+   "topicId": "twt_ccd6e16b9f",
+   "prerequisiteId": "twt_5a3dabc57b",
+   "strength": "hard",
+   "reason": "先認才寫"
+  },
+  {
+   "topicId": "twt_ccd6e16b9f",
+   "prerequisiteId": "twt_880b20fc6d",
+   "strength": "hard",
+   "reason": "書寫需筆順基礎"
+  },
+  {
+   "topicId": "twt_94ac44810b",
+   "prerequisiteId": "twt_5a3dabc57b",
+   "strength": "hard",
+   "reason": "有基礎字量才看得出部件"
+  },
+  {
+   "topicId": "twt_0fe97630f2",
+   "prerequisiteId": "twt_94ac44810b",
+   "strength": "hard",
+   "reason": "部首是特殊的部件"
+  },
+  {
+   "topicId": "twt_b652220348",
+   "prerequisiteId": "twt_0fe97630f2",
+   "strength": "hard",
+   "reason": "部首檢字需部首概念"
+  },
+  {
+   "topicId": "twt_b652220348",
+   "prerequisiteId": "twt_70d769f9a7",
+   "strength": "hard",
+   "reason": "注音檢字需拼音"
+  },
+  {
+   "topicId": "twt_772077d1cd",
+   "prerequisiteId": "twt_947dda9e73",
+   "strength": "hard",
+   "reason": "聽懂以專注為前提"
+  },
+  {
+   "topicId": "twt_2de48b76bd",
+   "prerequisiteId": "twt_772077d1cd",
+   "strength": "hard",
+   "reason": "由重述進到理解訊息與情感"
+  },
+  {
+   "topicId": "twt_11780e1d83",
+   "prerequisiteId": "twt_772077d1cd",
+   "strength": "soft",
+   "reason": "口語輸出以聽的輸入為養分"
+  },
+  {
+   "topicId": "twt_34fe5612c0",
+   "prerequisiteId": "twt_11780e1d83",
+   "strength": "hard",
+   "reason": "交談需基本口語能力"
+  },
+  {
+   "topicId": "twt_34fe5612c0",
+   "prerequisiteId": "twt_947dda9e73",
+   "strength": "hard",
+   "reason": "對話需聽懂對方"
+  },
+  {
+   "topicId": "twt_db15692b94",
+   "prerequisiteId": "twt_5a3dabc57b",
+   "strength": "hard",
+   "reason": "朗讀需認得字"
+  },
+  {
+   "topicId": "twt_db15692b94",
+   "prerequisiteId": "twt_4078f2b8c7",
+   "strength": "soft",
+   "reason": "注音讀物累積朗讀經驗"
+  },
+  {
+   "topicId": "twt_65a52141b2",
+   "prerequisiteId": "twt_db15692b94",
+   "strength": "soft",
+   "reason": "朗讀停頓引出標點功能"
+  },
+  {
+   "topicId": "twt_aee2e2ab23",
+   "prerequisiteId": "twt_11780e1d83",
+   "strength": "soft",
+   "reason": "口語句子是句型的直觀"
+  },
+  {
+   "topicId": "twt_aee2e2ab23",
+   "prerequisiteId": "twt_65a52141b2",
+   "strength": "soft",
+   "reason": "語氣與標點互相對應"
+  },
+  {
+   "topicId": "twt_4883ed54c0",
+   "prerequisiteId": "twt_5a3dabc57b",
+   "strength": "hard",
+   "reason": "識字量是理解的門檻"
+  },
+  {
+   "topicId": "twt_4883ed54c0",
+   "prerequisiteId": "twt_aee2e2ab23",
+   "strength": "soft",
+   "reason": "句意理解支撐篇章理解"
+  },
+  {
+   "topicId": "twt_fe8b3666fa",
+   "prerequisiteId": "twt_4883ed54c0",
+   "strength": "hard",
+   "reason": "大意建立在訊息理解上"
+  },
+  {
+   "topicId": "twt_26654f8df5",
+   "prerequisiteId": "twt_2de48b76bd",
+   "strength": "soft",
+   "reason": "口頭故事經驗遷移到文本"
+  },
+  {
+   "topicId": "twt_26654f8df5",
+   "prerequisiteId": "twt_4883ed54c0",
+   "strength": "hard",
+   "reason": "策略服務於理解"
+  },
+  {
+   "topicId": "twt_8215043cfc",
+   "prerequisiteId": "twt_4883ed54c0",
+   "strength": "hard",
+   "reason": "推論以明示訊息為據"
+  },
+  {
+   "topicId": "twt_fbfd5f1e54",
+   "prerequisiteId": "twt_4883ed54c0",
+   "strength": "hard",
+   "reason": "文類辨識以讀懂為前提"
+  },
+  {
+   "topicId": "twt_14b059162a",
+   "prerequisiteId": "twt_4078f2b8c7",
+   "strength": "soft",
+   "reason": "早期閱讀經驗養成興趣"
+  },
+  {
+   "topicId": "twt_837dc716ac",
+   "prerequisiteId": "twt_4883ed54c0",
+   "strength": "hard",
+   "reason": "文化內涵藏在文本訊息中"
+  },
+  {
+   "topicId": "twt_cd525129c0",
+   "prerequisiteId": "twt_aee2e2ab23",
+   "strength": "hard",
+   "reason": "句型是造句的模板"
+  },
+  {
+   "topicId": "twt_cd525129c0",
+   "prerequisiteId": "twt_ccd6e16b9f",
+   "strength": "hard",
+   "reason": "寫句需會寫字"
+  },
+  {
+   "topicId": "twt_0574b74b75",
+   "prerequisiteId": "twt_65a52141b2",
+   "strength": "hard",
+   "reason": "先認識再使用"
+  },
+  {
+   "topicId": "twt_0574b74b75",
+   "prerequisiteId": "twt_cd525129c0",
+   "strength": "hard",
+   "reason": "標點依附於句子"
+  },
+  {
+   "topicId": "twt_99c20859f8",
+   "prerequisiteId": "twt_cd525129c0",
+   "strength": "hard",
+   "reason": "段落由句子組成"
+  },
+  {
+   "topicId": "twt_e3b6bceb78",
+   "prerequisiteId": "twt_cd525129c0",
+   "strength": "hard",
+   "reason": "仿寫以造句能力為底"
+  },
+  {
+   "topicId": "twt_3b77cc5509",
+   "prerequisiteId": "twt_cd525129c0",
+   "strength": "hard",
+   "reason": "會寫才談修改"
+  },
+  {
+   "topicId": "twt_51d30bd130",
+   "prerequisiteId": "twt_99c20859f8",
+   "strength": "soft",
+   "reason": "應用文需成段表達"
+  },
+  {
+   "topicId": "twt_51d30bd130",
+   "prerequisiteId": "twt_cd525129c0",
+   "strength": "hard",
+   "reason": "格式之下仍是句子"
+  },
+  {
+   "topicId": "twt_29d0570bed",
+   "prerequisiteId": "twt_7c033ad885",
+   "strength": "hard",
+   "reason": "由表達工具轉為檢索工具"
+  },
+  {
+   "topicId": "twt_29d0570bed",
+   "prerequisiteId": "twt_a4ee5b591a",
+   "strength": "hard",
+   "reason": "延續以音帶字的策略"
+  },
+  {
+   "topicId": "twt_586a41d584",
+   "prerequisiteId": "twt_5a3dabc57b",
+   "strength": "hard",
+   "reason": "識字量的擴充"
+  },
+  {
+   "topicId": "twt_31422a7e39",
+   "prerequisiteId": "twt_ccd6e16b9f",
+   "strength": "hard",
+   "reason": "寫用字量的擴充"
+  },
+  {
+   "topicId": "twt_31422a7e39",
+   "prerequisiteId": "twt_586a41d584",
+   "strength": "soft",
+   "reason": "認讀先於書寫"
+  },
+  {
+   "topicId": "twt_a8ce236227",
+   "prerequisiteId": "twt_94ac44810b",
+   "strength": "hard",
+   "reason": "以部件系統化識字"
+  },
+  {
+   "topicId": "twt_a8ce236227",
+   "prerequisiteId": "twt_0fe97630f2",
+   "strength": "hard",
+   "reason": "表音表義功能的運用"
+  },
+  {
+   "topicId": "twt_cc7a0dea3c",
+   "prerequisiteId": "twt_586a41d584",
+   "strength": "hard",
+   "reason": "量大後才需精細辨析"
+  },
+  {
+   "topicId": "twt_d5d17f6849",
+   "prerequisiteId": "twt_586a41d584",
+   "strength": "hard",
+   "reason": "建立在基本字義上"
+  },
+  {
+   "topicId": "twt_29fd74ade8",
+   "prerequisiteId": "twt_b652220348",
+   "strength": "hard",
+   "reason": "由方法到熟練運用"
+  },
+  {
+   "topicId": "twt_1871880c15",
+   "prerequisiteId": "twt_586a41d584",
+   "strength": "hard",
+   "reason": "詞以字為構件"
+  },
+  {
+   "topicId": "twt_62cc439b1d",
+   "prerequisiteId": "twt_1871880c15",
+   "strength": "soft",
+   "reason": "量詞屬詞類知識"
+  },
+  {
+   "topicId": "twt_280b3b1dc3",
+   "prerequisiteId": "twt_880b20fc6d",
+   "strength": "hard",
+   "reason": "間架建立在筆畫上"
+  },
+  {
+   "topicId": "twt_086149c728",
+   "prerequisiteId": "twt_280b3b1dc3",
+   "strength": "soft",
+   "reason": "結構概念互通"
+  },
+  {
+   "topicId": "twt_086149c728",
+   "prerequisiteId": "twt_880b20fc6d",
+   "strength": "hard",
+   "reason": "楷書筆畫的毛筆化"
+  },
+  {
+   "topicId": "twt_fc0ab422a7",
+   "prerequisiteId": "twt_772077d1cd",
+   "strength": "hard",
+   "reason": "由重述進到要點摘取"
+  },
+  {
+   "topicId": "twt_dbbb78c37a",
+   "prerequisiteId": "twt_2de48b76bd",
+   "strength": "hard",
+   "reason": "判斷切題需理解內容"
+  },
+  {
+   "topicId": "twt_dbbb78c37a",
+   "prerequisiteId": "twt_947dda9e73",
+   "strength": "hard",
+   "reason": "互動禮貌的延伸"
+  },
+  {
+   "topicId": "twt_e855d0afe4",
+   "prerequisiteId": "twt_11780e1d83",
+   "strength": "hard",
+   "reason": "口語表達的精緻化"
+  },
+  {
+   "topicId": "twt_1c1b61e62d",
+   "prerequisiteId": "twt_11780e1d83",
+   "strength": "hard",
+   "reason": "由完整進到有條理"
+  },
+  {
+   "topicId": "twt_1c1b61e62d",
+   "prerequisiteId": "twt_772077d1cd",
+   "strength": "soft",
+   "reason": "重述經驗支撐組織能力"
+  },
+  {
+   "topicId": "twt_248f3cda18",
+   "prerequisiteId": "twt_34fe5612c0",
+   "strength": "hard",
+   "reason": "由對話進到討論"
+  },
+  {
+   "topicId": "twt_33e6a693bd",
+   "prerequisiteId": "twt_db15692b94",
+   "strength": "hard",
+   "reason": "由正確進到有情感"
+  },
+  {
+   "topicId": "twt_2063f65a33",
+   "prerequisiteId": "twt_65a52141b2",
+   "strength": "hard",
+   "reason": "標點系統的擴充"
+  },
+  {
+   "topicId": "twt_88b66e0bbf",
+   "prerequisiteId": "twt_aee2e2ab23",
+   "strength": "hard",
+   "reason": "由單句進到複句"
+  },
+  {
+   "topicId": "twt_2efc864e05",
+   "prerequisiteId": "twt_fe8b3666fa",
+   "strength": "hard",
+   "reason": "由自然段進到意義段"
+  },
+  {
+   "topicId": "twt_e8e3c237d9",
+   "prerequisiteId": "twt_2efc864e05",
+   "strength": "hard",
+   "reason": "摘要以段意為單位"
+  },
+  {
+   "topicId": "twt_02f7eeae3e",
+   "prerequisiteId": "twt_fbfd5f1e54",
+   "strength": "hard",
+   "reason": "由辨識進到結構分析"
+  },
+  {
+   "topicId": "twt_5c04d030cb",
+   "prerequisiteId": "twt_fbfd5f1e54",
+   "strength": "hard",
+   "reason": "抒情手法的深化"
+  },
+  {
+   "topicId": "twt_57f72a3820",
+   "prerequisiteId": "twt_4883ed54c0",
+   "strength": "hard",
+   "reason": "新增文類的理解"
+  },
+  {
+   "topicId": "twt_e2a0126a95",
+   "prerequisiteId": "twt_2efc864e05",
+   "strength": "hard",
+   "reason": "觀點與理由存在於段落關係"
+  },
+  {
+   "topicId": "twt_4c343b7d36",
+   "prerequisiteId": "twt_8215043cfc",
+   "strength": "hard",
+   "reason": "策略的系統化"
+  },
+  {
+   "topicId": "twt_d6c7eebc79",
+   "prerequisiteId": "twt_e8e3c237d9",
+   "strength": "soft",
+   "reason": "摘要是自我檢核的工具"
+  },
+  {
+   "topicId": "twt_d6c7eebc79",
+   "prerequisiteId": "twt_4c343b7d36",
+   "strength": "soft",
+   "reason": "策略使用中覺察理解狀態"
+  },
+  {
+   "topicId": "twt_ac32324eff",
+   "prerequisiteId": "twt_14b059162a",
+   "strength": "hard",
+   "reason": "興趣支撐大量閱讀"
+  },
+  {
+   "topicId": "twt_ac32324eff",
+   "prerequisiteId": "twt_586a41d584",
+   "strength": "hard",
+   "reason": "識字量支撐自主閱讀"
+  },
+  {
+   "topicId": "twt_af5568bdda",
+   "prerequisiteId": "twt_99c20859f8",
+   "strength": "hard",
+   "reason": "由段落進到全篇規劃"
+  },
+  {
+   "topicId": "twt_963aa9950b",
+   "prerequisiteId": "twt_af5568bdda",
+   "strength": "hard",
+   "reason": "按步驟完成作品"
+  },
+  {
+   "topicId": "twt_963aa9950b",
+   "prerequisiteId": "twt_02f7eeae3e",
+   "strength": "hard",
+   "reason": "讀寫結合：仿結構而寫"
+  },
+  {
+   "topicId": "twt_963aa9950b",
+   "prerequisiteId": "twt_57f72a3820",
+   "strength": "soft",
+   "reason": "說明手法用於寫作"
+  },
+  {
+   "topicId": "twt_cf84240af8",
+   "prerequisiteId": "twt_e3b6bceb78",
+   "strength": "hard",
+   "reason": "仿寫技巧的文類應用"
+  },
+  {
+   "topicId": "twt_9b0189bfa6",
+   "prerequisiteId": "twt_e3b6bceb78",
+   "strength": "hard",
+   "reason": "改寫技巧的擴充"
+  },
+  {
+   "topicId": "twt_9b0189bfa6",
+   "prerequisiteId": "twt_e8e3c237d9",
+   "strength": "soft",
+   "reason": "縮寫即摘要的寫作化"
+  },
+  {
+   "topicId": "twt_28297ea2e7",
+   "prerequisiteId": "twt_51d30bd130",
+   "strength": "hard",
+   "reason": "應用文類的擴充"
+  },
+  {
+   "topicId": "twt_2f2ae29ca0",
+   "prerequisiteId": "twt_3b77cc5509",
+   "strength": "hard",
+   "reason": "由句子修改進到全篇"
+  },
+  {
+   "topicId": "twt_865b0e926a",
+   "prerequisiteId": "twt_837dc716ac",
+   "strength": "hard",
+   "reason": "文化理解的加深"
+  },
+  {
+   "topicId": "twt_8a47dc377a",
+   "prerequisiteId": "twt_586a41d584",
+   "strength": "hard",
+   "reason": "識字量的再擴充"
+  },
+  {
+   "topicId": "twt_7463c0fb08",
+   "prerequisiteId": "twt_31422a7e39",
+   "strength": "hard",
+   "reason": "寫用字量的再擴充"
+  },
+  {
+   "topicId": "twt_b3238490ad",
+   "prerequisiteId": "twt_a8ce236227",
+   "strength": "hard",
+   "reason": "由識字策略進到文字學分析"
+  },
+  {
+   "topicId": "twt_ebd39effb3",
+   "prerequisiteId": "twt_29fd74ade8",
+   "strength": "hard",
+   "reason": "工具運用的擴充"
+  },
+  {
+   "topicId": "twt_ebd39effb3",
+   "prerequisiteId": "twt_d5d17f6849",
+   "strength": "soft",
+   "reason": "詞義辨析經驗"
+  },
+  {
+   "topicId": "twt_0914682656",
+   "prerequisiteId": "twt_280b3b1dc3",
+   "strength": "hard",
+   "reason": "由掌握到精熟"
+  },
+  {
+   "topicId": "twt_0914682656",
+   "prerequisiteId": "twt_086149c728",
+   "strength": "hard",
+   "reason": "楷書結構的進階"
+  },
+  {
+   "topicId": "twt_a3c5334925",
+   "prerequisiteId": "twt_fc0ab422a7",
+   "strength": "hard",
+   "reason": "要點掌握進到筆記"
+  },
+  {
+   "topicId": "twt_4d8aab854c",
+   "prerequisiteId": "twt_dbbb78c37a",
+   "strength": "hard",
+   "reason": "情境理解的精緻化"
+  },
+  {
+   "topicId": "twt_0eef148ae9",
+   "prerequisiteId": "twt_dbbb78c37a",
+   "strength": "hard",
+   "reason": "由切題判斷進到性質判斷"
+  },
+  {
+   "topicId": "twt_b880927bef",
+   "prerequisiteId": "twt_29d0570bed",
+   "strength": "soft",
+   "reason": "檢索能力的延伸"
+  },
+  {
+   "topicId": "twt_b880927bef",
+   "prerequisiteId": "twt_fc0ab422a7",
+   "strength": "soft",
+   "reason": "多媒材聆聽經驗"
+  },
+  {
+   "topicId": "twt_b135c43ab9",
+   "prerequisiteId": "twt_1c1b61e62d",
+   "strength": "soft",
+   "reason": "有組織後求有內容"
+  },
+  {
+   "topicId": "twt_e16deabea7",
+   "prerequisiteId": "twt_0eef148ae9",
+   "strength": "hard",
+   "reason": "判斷後才能合理應對"
+  },
+  {
+   "topicId": "twt_e16deabea7",
+   "prerequisiteId": "twt_248f3cda18",
+   "strength": "soft",
+   "reason": "討論經驗的深化"
+  },
+  {
+   "topicId": "twt_73230bf12c",
+   "prerequisiteId": "twt_e855d0afe4",
+   "strength": "hard",
+   "reason": "基本功之上求技巧"
+  },
+  {
+   "topicId": "twt_73230bf12c",
+   "prerequisiteId": "twt_b135c43ab9",
+   "strength": "soft",
+   "reason": "有材料才能豐富表達"
+  },
+  {
+   "topicId": "twt_9ccb2c418e",
+   "prerequisiteId": "twt_1c1b61e62d",
+   "strength": "hard",
+   "reason": "條理的邏輯化"
+  },
+  {
+   "topicId": "twt_9e26706e99",
+   "prerequisiteId": "twt_248f3cda18",
+   "strength": "hard",
+   "reason": "溝通態度的深化"
+  },
+  {
+   "topicId": "twt_c762edd9f2",
+   "prerequisiteId": "twt_33e6a693bd",
+   "strength": "hard",
+   "reason": "朗讀能力的成熟"
+  },
+  {
+   "topicId": "twt_7253701aab",
+   "prerequisiteId": "twt_2063f65a33",
+   "strength": "hard",
+   "reason": "由用法進到表達效果"
+  },
+  {
+   "topicId": "twt_e4d5f6ef4f",
+   "prerequisiteId": "twt_88b66e0bbf",
+   "strength": "hard",
+   "reason": "複句系統的完備"
+  },
+  {
+   "topicId": "twt_7a29e6cd6a",
+   "prerequisiteId": "twt_e8e3c237d9",
+   "strength": "hard",
+   "reason": "由大意進到結構與寓意"
+  },
+  {
+   "topicId": "twt_7a29e6cd6a",
+   "prerequisiteId": "twt_2efc864e05",
+   "strength": "hard",
+   "reason": "篇章由意義段組成"
+  },
+  {
+   "topicId": "twt_398f4df9ae",
+   "prerequisiteId": "twt_ac32324eff",
+   "strength": "hard",
+   "reason": "閱讀廣度的延伸"
+  },
+  {
+   "topicId": "twt_398f4df9ae",
+   "prerequisiteId": "twt_8a47dc377a",
+   "strength": "hard",
+   "reason": "文言與長文需高識字量"
+  },
+  {
+   "topicId": "twt_b91f8c6924",
+   "prerequisiteId": "twt_e2a0126a95",
+   "strength": "hard",
+   "reason": "由找理由進到辨性質"
+  },
+  {
+   "topicId": "twt_5b181808d6",
+   "prerequisiteId": "twt_e2a0126a95",
+   "strength": "hard",
+   "reason": "論點論據關係的正式化"
+  },
+  {
+   "topicId": "twt_5b181808d6",
+   "prerequisiteId": "twt_b91f8c6924",
+   "strength": "hard",
+   "reason": "論據需區分事實與意見"
+  },
+  {
+   "topicId": "twt_ff73e90e97",
+   "prerequisiteId": "twt_e8e3c237d9",
+   "strength": "hard",
+   "reason": "策略的自動化"
+  },
+  {
+   "topicId": "twt_d172995607",
+   "prerequisiteId": "twt_e2a0126a95",
+   "strength": "hard",
+   "reason": "由理解觀點到評述觀點"
+  },
+  {
+   "topicId": "twt_d172995607",
+   "prerequisiteId": "twt_d6c7eebc79",
+   "strength": "soft",
+   "reason": "後設能力支撐評述"
+  },
+  {
+   "topicId": "twt_919ae0bed5",
+   "prerequisiteId": "twt_4c343b7d36",
+   "strength": "hard",
+   "reason": "由明示因果進到隱含訊息"
+  },
+  {
+   "topicId": "twt_6295544180",
+   "prerequisiteId": "twt_d6c7eebc79",
+   "strength": "hard",
+   "reason": "後設監控是策略調度的前提"
+  },
+  {
+   "topicId": "twt_ab88cd4310",
+   "prerequisiteId": "twt_ac32324eff",
+   "strength": "hard",
+   "reason": "議題閱讀的深化"
+  },
+  {
+   "topicId": "twt_ab88cd4310",
+   "prerequisiteId": "twt_b880927bef",
+   "strength": "soft",
+   "reason": "數位工具的運用"
+  },
+  {
+   "topicId": "twt_7a51ccedd5",
+   "prerequisiteId": "twt_af5568bdda",
+   "strength": "soft",
+   "reason": "立意選材需要聯想"
+  },
+  {
+   "topicId": "twt_c4f6151213",
+   "prerequisiteId": "twt_af5568bdda",
+   "strength": "hard",
+   "reason": "步驟的全篇實踐"
+  },
+  {
+   "topicId": "twt_c4f6151213",
+   "prerequisiteId": "twt_7a29e6cd6a",
+   "strength": "soft",
+   "reason": "讀的結構意識轉為寫"
+  },
+  {
+   "topicId": "twt_c20311a48f",
+   "prerequisiteId": "twt_cf84240af8",
+   "strength": "hard",
+   "reason": "由仿寫到創作"
+  },
+  {
+   "topicId": "twt_c20311a48f",
+   "prerequisiteId": "twt_9b0189bfa6",
+   "strength": "soft",
+   "reason": "改寫技巧支援創作"
+  },
+  {
+   "topicId": "twt_1cf0008d9b",
+   "prerequisiteId": "twt_5b181808d6",
+   "strength": "hard",
+   "reason": "依議論結構寫作"
+  },
+  {
+   "topicId": "twt_1cf0008d9b",
+   "prerequisiteId": "twt_c4f6151213",
+   "strength": "hard",
+   "reason": "議論文是完整篇章"
+  },
+  {
+   "topicId": "twt_92ac310917",
+   "prerequisiteId": "twt_57f72a3820",
+   "strength": "hard",
+   "reason": "說明文類的深化"
+  },
+  {
+   "topicId": "twt_336b0c3a94",
+   "prerequisiteId": "twt_2f2ae29ca0",
+   "strength": "hard",
+   "reason": "由修改進到潤飾"
+  },
+  {
+   "topicId": "twt_aa0d0a0393",
+   "prerequisiteId": "twt_28297ea2e7",
+   "strength": "hard",
+   "reason": "應用文類的再擴充"
+  },
+  {
+   "topicId": "twt_aa0d0a0393",
+   "prerequisiteId": "twt_c4f6151213",
+   "strength": "soft",
+   "reason": "長篇應用文需篇章能力"
+  },
+  {
+   "topicId": "twt_1cfc6e9be8",
+   "prerequisiteId": "twt_5c04d030cb",
+   "strength": "hard",
+   "reason": "抒情理解的深化"
+  },
+  {
+   "topicId": "twt_2adce50798",
+   "prerequisiteId": "twt_865b0e926a",
+   "strength": "hard",
+   "reason": "文化理解的再加深"
+  },
+  {
+   "topicId": "twt_65548fe398",
+   "prerequisiteId": "twt_f8532b0452",
+   "strength": "hard",
+   "reason": "觀察變化以感官探索為底"
+  },
+  {
+   "topicId": "twt_f22acc01fd",
+   "prerequisiteId": "twt_65548fe398",
+   "strength": "hard",
+   "reason": "由觀察引出問題"
+  },
+  {
+   "topicId": "twt_e8712ed914",
+   "prerequisiteId": "twt_f8532b0452",
+   "strength": "hard",
+   "reason": "訊息來自感官觀察"
+  },
+  {
+   "topicId": "twt_e8712ed914",
+   "prerequisiteId": "twt_f22acc01fd",
+   "strength": "soft",
+   "reason": "解題歷程需處理訊息"
+  },
+  {
+   "topicId": "twt_20a0d1e828",
+   "prerequisiteId": "twt_f22acc01fd",
+   "strength": "hard",
+   "reason": "道理由解題歷程歸納"
+  },
+  {
+   "topicId": "twt_20a0d1e828",
+   "prerequisiteId": "twt_e8712ed914",
+   "strength": "hard",
+   "reason": "結論以整理的訊息為據"
+  },
+  {
+   "topicId": "twt_55b5ec5faa",
+   "prerequisiteId": "twt_f8532b0452",
+   "strength": "soft",
+   "reason": "探索經驗滋養好奇心"
+  },
+  {
+   "topicId": "twt_c4c64b5a3d",
+   "prerequisiteId": "twt_f22acc01fd",
+   "strength": "hard",
+   "reason": "解題中認識多種方法"
+  },
+  {
+   "topicId": "twt_474cb453fc",
+   "prerequisiteId": "twt_f8532b0452",
+   "strength": "soft",
+   "reason": "素材特性靠感官認識"
+  },
+  {
+   "topicId": "twt_0f2bb16d56",
+   "prerequisiteId": "twt_474cb453fc",
+   "strength": "hard",
+   "reason": "美化生活是創作的應用"
+  },
+  {
+   "topicId": "twt_6ac8a30763",
+   "prerequisiteId": "twt_f8532b0452",
+   "strength": "hard",
+   "reason": "美感始於感官覺察"
+  },
+  {
+   "topicId": "twt_588076a43e",
+   "prerequisiteId": "twt_6ac8a30763",
+   "strength": "hard",
+   "reason": "由覺察進到欣賞比較"
+  },
+  {
+   "topicId": "twt_e3ea5fd81c",
+   "prerequisiteId": "twt_165a78594e",
+   "strength": "hard",
+   "reason": "自我認識先於自我欣賞"
+  },
+  {
+   "topicId": "twt_7c48f792b4",
+   "prerequisiteId": "twt_165a78594e",
+   "strength": "hard",
+   "reason": "省思以自我覺察為底"
+  },
+  {
+   "topicId": "twt_3edab82a85",
+   "prerequisiteId": "twt_165a78594e",
+   "strength": "hard",
+   "reason": "先覺察感受才能調整"
+  },
+  {
+   "topicId": "twt_01607a4613",
+   "prerequisiteId": "twt_3edab82a85",
+   "strength": "soft",
+   "reason": "角色責任伴隨行為調整"
+  },
+  {
+   "topicId": "twt_01607a4613",
+   "prerequisiteId": "twt_321234bd10",
+   "strength": "soft",
+   "reason": "自理是承擔角色的基礎"
+  },
+  {
+   "topicId": "twt_207152e98a",
+   "prerequisiteId": "twt_3edab82a85",
+   "strength": "soft",
+   "reason": "理解行為影響支撐守規範"
+  },
+  {
+   "topicId": "twt_649f46b84a",
+   "prerequisiteId": "twt_aa604e8bc3",
+   "strength": "hard",
+   "reason": "關懷以同理為前提"
+  },
+  {
+   "topicId": "twt_fd807af89b",
+   "prerequisiteId": "twt_65548fe398",
+   "strength": "soft",
+   "reason": "觀察環境變化引發珍惜"
+  },
+  {
+   "topicId": "twt_fd807af89b",
+   "prerequisiteId": "twt_6ac8a30763",
+   "strength": "soft",
+   "reason": "愛美的環境所以愛護"
+  },
+  {
+   "topicId": "twt_aa604e8bc3",
+   "prerequisiteId": "twt_7a6eca34ef",
+   "strength": "hard",
+   "reason": "同理建立在傾聽上"
+  },
+  {
+   "topicId": "twt_58cd481332",
+   "prerequisiteId": "twt_7a6eca34ef",
+   "strength": "hard",
+   "reason": "合作需要溝通"
+  },
+  {
+   "topicId": "twt_58cd481332",
+   "prerequisiteId": "twt_aa604e8bc3",
+   "strength": "hard",
+   "reason": "合作需要尊重"
+  },
+  {
+   "topicId": "twt_efc4700ac4",
+   "prerequisiteId": "twt_c4c64b5a3d",
+   "strength": "soft",
+   "reason": "方法意識遷移到做事"
+  },
+  {
+   "topicId": "twt_efc4700ac4",
+   "prerequisiteId": "twt_01607a4613",
+   "strength": "soft",
+   "reason": "責任感驅動自主管理"
+  },
+  {
+   "topicId": "twt_87c8bb97ab",
+   "prerequisiteId": "twt_4883ed54c0",
+   "strength": "soft",
+   "reason": "數學文字題需要基本閱讀理解"
+  },
+  {
+   "topicId": "twt_0493a1757e",
+   "prerequisiteId": "twt_4883ed54c0",
+   "strength": "soft",
+   "reason": "多步驟題意理解依賴閱讀"
+  },
+  {
+   "topicId": "twt_7a6eca34ef",
+   "prerequisiteId": "twt_11780e1d83",
+   "strength": "soft",
+   "reason": "生活課的表達以國語口語能力為底"
+  },
+  {
+   "topicId": "twt_aa604e8bc3",
+   "prerequisiteId": "twt_947dda9e73",
+   "strength": "soft",
+   "reason": "聆聽習慣支撐同理"
+  },
+  {
+   "topicId": "twt_e8712ed914",
+   "prerequisiteId": "twt_13654c8d4c",
+   "strength": "soft",
+   "reason": "記錄與整理訊息用到分類能力"
+  },
+  {
+   "topicId": "twt_fbac484ebe",
+   "prerequisiteId": "twt_65548fe398",
+   "strength": "soft",
+   "reason": "生活課的變化觀察是數量模式觀察的前置經驗"
+  },
+  {
+   "topicId": "twt_05d0626f72",
+   "prerequisiteId": "twt_192bbe0161",
+   "strength": "hard",
+   "reason": "本土語文（閩南語文）能力的階段進程"
+  },
+  {
+   "topicId": "twt_f4a668bf45",
+   "prerequisiteId": "twt_05d0626f72",
+   "strength": "hard",
+   "reason": "本土語文（閩南語文）能力的階段進程"
+  },
+  {
+   "topicId": "twt_8aa0c85b14",
+   "prerequisiteId": "twt_e49a0fb9c2",
+   "strength": "hard",
+   "reason": "本土語文（客語文）能力的階段進程"
+  },
+  {
+   "topicId": "twt_ff8f97e135",
+   "prerequisiteId": "twt_8aa0c85b14",
+   "strength": "hard",
+   "reason": "本土語文（客語文）能力的階段進程"
+  },
+  {
+   "topicId": "twt_64aacc70d6",
+   "prerequisiteId": "twt_9fffb1a84c",
+   "strength": "hard",
+   "reason": "本土語文（原住民族語文）能力的階段進程"
+  },
+  {
+   "topicId": "twt_fac173eca3",
+   "prerequisiteId": "twt_64aacc70d6",
+   "strength": "hard",
+   "reason": "本土語文（原住民族語文）能力的階段進程"
+  },
+  {
+   "topicId": "twt_d6454addc0",
+   "prerequisiteId": "twt_29a0c0c037",
+   "strength": "hard",
+   "reason": "本土語文（閩東語文）能力的階段進程"
+  },
+  {
+   "topicId": "twt_6878711d53",
+   "prerequisiteId": "twt_d6454addc0",
+   "strength": "hard",
+   "reason": "本土語文（閩東語文）能力的階段進程"
+  },
+  {
+   "topicId": "twt_b66a9ac7b5",
+   "prerequisiteId": "twt_95fa082f62",
+   "strength": "hard",
+   "reason": "新住民語文能力的階段進程"
+  },
+  {
+   "topicId": "twt_968d07ab1b",
+   "prerequisiteId": "twt_b66a9ac7b5",
+   "strength": "hard",
+   "reason": "新住民語文能力的階段進程"
+  },
+  {
+   "topicId": "twt_5976c5b625",
+   "prerequisiteId": "twt_2b70e1faeb",
+   "strength": "hard",
+   "reason": "臺灣手語能力的階段進程"
+  },
+  {
+   "topicId": "twt_81f6572243",
+   "prerequisiteId": "twt_5976c5b625",
+   "strength": "hard",
+   "reason": "臺灣手語能力的階段進程"
+  },
+  {
+   "topicId": "twt_8dd35cbdbc",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "hard",
+   "reason": "社會·互動與關聯 的階段進程"
+  },
+  {
+   "topicId": "twt_d01fd12109",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "hard",
+   "reason": "社會·互動與關聯 的階段進程"
+  },
+  {
+   "topicId": "twt_5cfff45742",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "hard",
+   "reason": "社會·互動與關聯 的階段進程"
+  },
+  {
+   "topicId": "twt_4f291fda58",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "hard",
+   "reason": "社會·互動與關聯 的階段進程"
+  },
+  {
+   "topicId": "twt_7d99e678e0",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "hard",
+   "reason": "社會·互動與關聯 的階段進程"
+  },
+  {
+   "topicId": "twt_28df981d73",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "hard",
+   "reason": "社會·互動與關聯 的階段進程"
+  },
+  {
+   "topicId": "twt_399a325db7",
+   "prerequisiteId": "twt_bb6942705a",
+   "strength": "hard",
+   "reason": "社會·差異與多元 的階段進程"
+  },
+  {
+   "topicId": "twt_5612459ad5",
+   "prerequisiteId": "twt_bb6942705a",
+   "strength": "hard",
+   "reason": "社會·差異與多元 的階段進程"
+  },
+  {
+   "topicId": "twt_b00a250e73",
+   "prerequisiteId": "twt_1fde126755",
+   "strength": "hard",
+   "reason": "社會·變遷與因果 的階段進程"
+  },
+  {
+   "topicId": "twt_edbbfc9ab8",
+   "prerequisiteId": "twt_1fde126755",
+   "strength": "hard",
+   "reason": "社會·變遷與因果 的階段進程"
+  },
+  {
+   "topicId": "twt_f392982b9a",
+   "prerequisiteId": "twt_1fde126755",
+   "strength": "hard",
+   "reason": "社會·變遷與因果 的階段進程"
+  },
+  {
+   "topicId": "twt_626ca5b06c",
+   "prerequisiteId": "twt_1fde126755",
+   "strength": "hard",
+   "reason": "社會·變遷與因果 的階段進程"
+  },
+  {
+   "topicId": "twt_4f21b6540d",
+   "prerequisiteId": "twt_1fde126755",
+   "strength": "hard",
+   "reason": "社會·變遷與因果 的階段進程"
+  },
+  {
+   "topicId": "twt_62b5212e56",
+   "prerequisiteId": "twt_39c8ad274d",
+   "strength": "hard",
+   "reason": "社會·選擇與責任 的階段進程"
+  },
+  {
+   "topicId": "twt_60eda7516e",
+   "prerequisiteId": "twt_39c8ad274d",
+   "strength": "hard",
+   "reason": "社會·選擇與責任 的階段進程"
+  },
+  {
+   "topicId": "twt_a01019a27b",
+   "prerequisiteId": "twt_78b2df0515",
+   "strength": "hard",
+   "reason": "藝術·音樂 的階段進程"
+  },
+  {
+   "topicId": "twt_b1f15a6183",
+   "prerequisiteId": "twt_78b2df0515",
+   "strength": "hard",
+   "reason": "藝術·音樂 的階段進程"
+  },
+  {
+   "topicId": "twt_69d4da5dc5",
+   "prerequisiteId": "twt_78b2df0515",
+   "strength": "hard",
+   "reason": "藝術·音樂 的階段進程"
+  },
+  {
+   "topicId": "twt_7a4a380d43",
+   "prerequisiteId": "twt_41b1aee394",
+   "strength": "hard",
+   "reason": "藝術·視覺藝術 的階段進程"
+  },
+  {
+   "topicId": "twt_fb6198cf42",
+   "prerequisiteId": "twt_41b1aee394",
+   "strength": "hard",
+   "reason": "藝術·視覺藝術 的階段進程"
+  },
+  {
+   "topicId": "twt_5067880ec8",
+   "prerequisiteId": "twt_41b1aee394",
+   "strength": "hard",
+   "reason": "藝術·視覺藝術 的階段進程"
+  },
+  {
+   "topicId": "twt_e2709d78cf",
+   "prerequisiteId": "twt_9d543ae0a8",
+   "strength": "hard",
+   "reason": "藝術·表演藝術 的階段進程"
+  },
+  {
+   "topicId": "twt_8c70f1a0eb",
+   "prerequisiteId": "twt_9d543ae0a8",
+   "strength": "hard",
+   "reason": "藝術·表演藝術 的階段進程"
+  },
+  {
+   "topicId": "twt_9b6bf06a55",
+   "prerequisiteId": "twt_9d543ae0a8",
+   "strength": "hard",
+   "reason": "藝術·表演藝術 的階段進程"
+  },
+  {
+   "topicId": "twt_3ec4d7d200",
+   "prerequisiteId": "twt_593d922f94",
+   "strength": "hard",
+   "reason": "藝術·藝術表現能力 的階段進程"
+  },
+  {
+   "topicId": "twt_e53137e5fa",
+   "prerequisiteId": "twt_4a01957fa8",
+   "strength": "hard",
+   "reason": "藝術·藝術鑑賞能力 的階段進程"
+  },
+  {
+   "topicId": "twt_385ea1d4dc",
+   "prerequisiteId": "twt_fe47595987",
+   "strength": "hard",
+   "reason": "藝術·藝術實踐能力 的階段進程"
+  },
+  {
+   "topicId": "twt_82cd664338",
+   "prerequisiteId": "twt_01bb40a6e2",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_c606d413ef",
+   "prerequisiteId": "twt_01bb40a6e2",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_aa835cfea4",
+   "prerequisiteId": "twt_01bb40a6e2",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_07287d446d",
+   "prerequisiteId": "twt_01bb40a6e2",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_408f36254f",
+   "prerequisiteId": "twt_01bb40a6e2",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_4b80bb2751",
+   "prerequisiteId": "twt_01bb40a6e2",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_cded2d863b",
+   "prerequisiteId": "twt_01bb40a6e2",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_10c902f976",
+   "prerequisiteId": "twt_01bb40a6e2",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_88f2496c17",
+   "prerequisiteId": "twt_82cd664338",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_8721b18081",
+   "prerequisiteId": "twt_82cd664338",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_91bf458c64",
+   "prerequisiteId": "twt_82cd664338",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_7b241d27db",
+   "prerequisiteId": "twt_82cd664338",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_acef0d7272",
+   "prerequisiteId": "twt_82cd664338",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_a710535e86",
+   "prerequisiteId": "twt_82cd664338",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_5ce2735484",
+   "prerequisiteId": "twt_82cd664338",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_2a42bc6831",
+   "prerequisiteId": "twt_82cd664338",
+   "strength": "hard",
+   "reason": "健康與體育·健康與體育 的階段進程"
+  },
+  {
+   "topicId": "twt_1acf03d6af",
+   "prerequisiteId": "twt_024a93db9c",
+   "strength": "hard",
+   "reason": "健康與體育·認知 的階段進程"
+  },
+  {
+   "topicId": "twt_887c45f0ee",
+   "prerequisiteId": "twt_024a93db9c",
+   "strength": "hard",
+   "reason": "健康與體育·認知 的階段進程"
+  },
+  {
+   "topicId": "twt_484f51a0c1",
+   "prerequisiteId": "twt_024a93db9c",
+   "strength": "hard",
+   "reason": "健康與體育·認知 的階段進程"
+  },
+  {
+   "topicId": "twt_7a3cb57961",
+   "prerequisiteId": "twt_024a93db9c",
+   "strength": "hard",
+   "reason": "健康與體育·認知 的階段進程"
+  },
+  {
+   "topicId": "twt_d2fae58606",
+   "prerequisiteId": "twt_1acf03d6af",
+   "strength": "hard",
+   "reason": "健康與體育·認知 的階段進程"
+  },
+  {
+   "topicId": "twt_41c8e9b071",
+   "prerequisiteId": "twt_1acf03d6af",
+   "strength": "hard",
+   "reason": "健康與體育·認知 的階段進程"
+  },
+  {
+   "topicId": "twt_a774c572a6",
+   "prerequisiteId": "twt_1acf03d6af",
+   "strength": "hard",
+   "reason": "健康與體育·認知 的階段進程"
+  },
+  {
+   "topicId": "twt_a2a975947e",
+   "prerequisiteId": "twt_1acf03d6af",
+   "strength": "hard",
+   "reason": "健康與體育·認知 的階段進程"
+  },
+  {
+   "topicId": "twt_f5e3beffcf",
+   "prerequisiteId": "twt_545665f9f6",
+   "strength": "hard",
+   "reason": "健康與體育·情意 的階段進程"
+  },
+  {
+   "topicId": "twt_383d79cea2",
+   "prerequisiteId": "twt_545665f9f6",
+   "strength": "hard",
+   "reason": "健康與體育·情意 的階段進程"
+  },
+  {
+   "topicId": "twt_789197aae7",
+   "prerequisiteId": "twt_545665f9f6",
+   "strength": "hard",
+   "reason": "健康與體育·情意 的階段進程"
+  },
+  {
+   "topicId": "twt_5a5c56d717",
+   "prerequisiteId": "twt_545665f9f6",
+   "strength": "hard",
+   "reason": "健康與體育·情意 的階段進程"
+  },
+  {
+   "topicId": "twt_0b97f7dc0a",
+   "prerequisiteId": "twt_f5e3beffcf",
+   "strength": "hard",
+   "reason": "健康與體育·情意 的階段進程"
+  },
+  {
+   "topicId": "twt_21b8a6f130",
+   "prerequisiteId": "twt_f5e3beffcf",
+   "strength": "hard",
+   "reason": "健康與體育·情意 的階段進程"
+  },
+  {
+   "topicId": "twt_f6abb008d0",
+   "prerequisiteId": "twt_f5e3beffcf",
+   "strength": "hard",
+   "reason": "健康與體育·情意 的階段進程"
+  },
+  {
+   "topicId": "twt_458a5d19ed",
+   "prerequisiteId": "twt_f5e3beffcf",
+   "strength": "hard",
+   "reason": "健康與體育·情意 的階段進程"
+  },
+  {
+   "topicId": "twt_e228197bfe",
+   "prerequisiteId": "twt_681f52a57b",
+   "strength": "hard",
+   "reason": "健康與體育·技能 的階段進程"
+  },
+  {
+   "topicId": "twt_c430e36d04",
+   "prerequisiteId": "twt_681f52a57b",
+   "strength": "hard",
+   "reason": "健康與體育·技能 的階段進程"
+  },
+  {
+   "topicId": "twt_8b60936001",
+   "prerequisiteId": "twt_681f52a57b",
+   "strength": "hard",
+   "reason": "健康與體育·技能 的階段進程"
+  },
+  {
+   "topicId": "twt_97846cbc58",
+   "prerequisiteId": "twt_681f52a57b",
+   "strength": "hard",
+   "reason": "健康與體育·技能 的階段進程"
+  },
+  {
+   "topicId": "twt_93be65530a",
+   "prerequisiteId": "twt_e228197bfe",
+   "strength": "hard",
+   "reason": "健康與體育·技能 的階段進程"
+  },
+  {
+   "topicId": "twt_cce5bb7032",
+   "prerequisiteId": "twt_e228197bfe",
+   "strength": "hard",
+   "reason": "健康與體育·技能 的階段進程"
+  },
+  {
+   "topicId": "twt_e596eb372e",
+   "prerequisiteId": "twt_e228197bfe",
+   "strength": "hard",
+   "reason": "健康與體育·技能 的階段進程"
+  },
+  {
+   "topicId": "twt_673df57772",
+   "prerequisiteId": "twt_e228197bfe",
+   "strength": "hard",
+   "reason": "健康與體育·技能 的階段進程"
+  },
+  {
+   "topicId": "twt_96de267539",
+   "prerequisiteId": "twt_dd4fbbae65",
+   "strength": "hard",
+   "reason": "健康與體育·行為 的階段進程"
+  },
+  {
+   "topicId": "twt_8aaad88960",
+   "prerequisiteId": "twt_dd4fbbae65",
+   "strength": "hard",
+   "reason": "健康與體育·行為 的階段進程"
+  },
+  {
+   "topicId": "twt_53e82b0ba5",
+   "prerequisiteId": "twt_dd4fbbae65",
+   "strength": "hard",
+   "reason": "健康與體育·行為 的階段進程"
+  },
+  {
+   "topicId": "twt_62421ed419",
+   "prerequisiteId": "twt_dd4fbbae65",
+   "strength": "hard",
+   "reason": "健康與體育·行為 的階段進程"
+  },
+  {
+   "topicId": "twt_a398f8f353",
+   "prerequisiteId": "twt_96de267539",
+   "strength": "hard",
+   "reason": "健康與體育·行為 的階段進程"
+  },
+  {
+   "topicId": "twt_b6018488dc",
+   "prerequisiteId": "twt_96de267539",
+   "strength": "hard",
+   "reason": "健康與體育·行為 的階段進程"
+  },
+  {
+   "topicId": "twt_d3327679e6",
+   "prerequisiteId": "twt_96de267539",
+   "strength": "hard",
+   "reason": "健康與體育·行為 的階段進程"
+  },
+  {
+   "topicId": "twt_a2e5d94606",
+   "prerequisiteId": "twt_96de267539",
+   "strength": "hard",
+   "reason": "健康與體育·行為 的階段進程"
+  },
+  {
+   "topicId": "twt_c8ce025fc5",
+   "prerequisiteId": "twt_6401f5fbe7",
+   "strength": "hard",
+   "reason": "綜合活動·自我與生涯發展 的階段進程"
+  },
+  {
+   "topicId": "twt_8537d14857",
+   "prerequisiteId": "twt_6401f5fbe7",
+   "strength": "hard",
+   "reason": "綜合活動·自我與生涯發展 的階段進程"
+  },
+  {
+   "topicId": "twt_e324d4f7ef",
+   "prerequisiteId": "twt_6401f5fbe7",
+   "strength": "hard",
+   "reason": "綜合活動·自我與生涯發展 的階段進程"
+  },
+  {
+   "topicId": "twt_f491e107d6",
+   "prerequisiteId": "twt_6401f5fbe7",
+   "strength": "hard",
+   "reason": "綜合活動·自我與生涯發展 的階段進程"
+  },
+  {
+   "topicId": "twt_2bb8eec9b9",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "hard",
+   "reason": "綜合活動·生活經營與創新 的階段進程"
+  },
+  {
+   "topicId": "twt_3e3529c80c",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "hard",
+   "reason": "綜合活動·生活經營與創新 的階段進程"
+  },
+  {
+   "topicId": "twt_ce1359b222",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "hard",
+   "reason": "綜合活動·生活經營與創新 的階段進程"
+  },
+  {
+   "topicId": "twt_96e0899d15",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "hard",
+   "reason": "綜合活動·生活經營與創新 的階段進程"
+  },
+  {
+   "topicId": "twt_62d98070a7",
+   "prerequisiteId": "twt_5aac8933d0",
+   "strength": "hard",
+   "reason": "綜合活動·社會與環境關懷 的階段進程"
+  },
+  {
+   "topicId": "twt_6518c452f9",
+   "prerequisiteId": "twt_5aac8933d0",
+   "strength": "hard",
+   "reason": "綜合活動·社會與環境關懷 的階段進程"
+  },
+  {
+   "topicId": "twt_c09efb5b9e",
+   "prerequisiteId": "twt_5aac8933d0",
+   "strength": "hard",
+   "reason": "綜合活動·社會與環境關懷 的階段進程"
+  },
+  {
+   "topicId": "twt_7c5da2982c",
+   "prerequisiteId": "twt_5aac8933d0",
+   "strength": "hard",
+   "reason": "綜合活動·社會與環境關懷 的階段進程"
+  },
+  {
+   "topicId": "twt_4c826e238a",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_db9fd622ed",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_657f741d29",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_68f610effc",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_b64b287804",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_884a8d1fca",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_ac4479c14c",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_ff4b483610",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_887dbf60e0",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_9bc1644c73",
+   "prerequisiteId": "twt_cd12f7b08d",
+   "strength": "hard",
+   "reason": "英語文·語言能力 的階段進程"
+  },
+  {
+   "topicId": "twt_e33fe17f50",
+   "prerequisiteId": "twt_acd2f63a21",
+   "strength": "hard",
+   "reason": "英語文·思考能力 的階段進程"
+  },
+  {
+   "topicId": "twt_c35502a4fe",
+   "prerequisiteId": "twt_19ee094601",
+   "strength": "hard",
+   "reason": "英語文·學習興趣與態度 的階段進程"
+  },
+  {
+   "topicId": "twt_2fe211d11c",
+   "prerequisiteId": "twt_ad1f35917b",
+   "strength": "hard",
+   "reason": "英語文·學習方法與策略 的階段進程"
+  },
+  {
+   "topicId": "twt_9343b99e53",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "hard",
+   "reason": "英語文·文化理解 的階段進程"
+  },
+  {
+   "topicId": "twt_f65e1988ca",
+   "prerequisiteId": "twt_9d46956793",
+   "strength": "hard",
+   "reason": "自然科學·探究能力 的階段進程"
+  },
+  {
+   "topicId": "twt_a66ec1406b",
+   "prerequisiteId": "twt_9d46956793",
+   "strength": "hard",
+   "reason": "自然科學·探究能力 的階段進程"
+  },
+  {
+   "topicId": "twt_f0d2c08ada",
+   "prerequisiteId": "twt_9d46956793",
+   "strength": "hard",
+   "reason": "自然科學·探究能力 的階段進程"
+  },
+  {
+   "topicId": "twt_78e9c24167",
+   "prerequisiteId": "twt_9d46956793",
+   "strength": "hard",
+   "reason": "自然科學·探究能力 的階段進程"
+  },
+  {
+   "topicId": "twt_e8bf18b1a4",
+   "prerequisiteId": "twt_8b0de00582",
+   "strength": "hard",
+   "reason": "自然科學·系統與尺度 的階段進程"
+  },
+  {
+   "topicId": "twt_6ff09a826d",
+   "prerequisiteId": "twt_8b0de00582",
+   "strength": "hard",
+   "reason": "自然科學·系統與尺度 的階段進程"
+  },
+  {
+   "topicId": "twt_15ce2d44e5",
+   "prerequisiteId": "twt_8b0de00582",
+   "strength": "hard",
+   "reason": "自然科學·系統與尺度 的階段進程"
+  },
+  {
+   "topicId": "twt_2b7222dccc",
+   "prerequisiteId": "twt_8b0de00582",
+   "strength": "hard",
+   "reason": "自然科學·系統與尺度 的階段進程"
+  },
+  {
+   "topicId": "twt_99f353f5e7",
+   "prerequisiteId": "twt_8b0de00582",
+   "strength": "hard",
+   "reason": "自然科學·系統與尺度 的階段進程"
+  },
+  {
+   "topicId": "twt_80d0298222",
+   "prerequisiteId": "twt_0fd5d3b45b",
+   "strength": "hard",
+   "reason": "自然科學·物質與能量 的階段進程"
+  },
+  {
+   "topicId": "twt_685815f587",
+   "prerequisiteId": "twt_0fd5d3b45b",
+   "strength": "hard",
+   "reason": "自然科學·物質與能量 的階段進程"
+  },
+  {
+   "topicId": "twt_b3a3d0449a",
+   "prerequisiteId": "twt_0fd5d3b45b",
+   "strength": "hard",
+   "reason": "自然科學·物質與能量 的階段進程"
+  },
+  {
+   "topicId": "twt_157da4e918",
+   "prerequisiteId": "twt_0fd5d3b45b",
+   "strength": "hard",
+   "reason": "自然科學·物質與能量 的階段進程"
+  },
+  {
+   "topicId": "twt_689ae23152",
+   "prerequisiteId": "twt_0fd5d3b45b",
+   "strength": "hard",
+   "reason": "自然科學·物質與能量 的階段進程"
+  },
+  {
+   "topicId": "twt_f4e4c5e3d6",
+   "prerequisiteId": "twt_e438e1289c",
+   "strength": "hard",
+   "reason": "自然科學·構造與功能 的階段進程"
+  },
+  {
+   "topicId": "twt_b3c655317b",
+   "prerequisiteId": "twt_e438e1289c",
+   "strength": "hard",
+   "reason": "自然科學·構造與功能 的階段進程"
+  },
+  {
+   "topicId": "twt_501f6f7a64",
+   "prerequisiteId": "twt_f90e98ef03",
+   "strength": "hard",
+   "reason": "自然科學·改變與穩定 的階段進程"
+  },
+  {
+   "topicId": "twt_c978c7254e",
+   "prerequisiteId": "twt_f90e98ef03",
+   "strength": "hard",
+   "reason": "自然科學·改變與穩定 的階段進程"
+  },
+  {
+   "topicId": "twt_44aec8e6c4",
+   "prerequisiteId": "twt_f90e98ef03",
+   "strength": "hard",
+   "reason": "自然科學·改變與穩定 的階段進程"
+  },
+  {
+   "topicId": "twt_48ee549d04",
+   "prerequisiteId": "twt_f90e98ef03",
+   "strength": "hard",
+   "reason": "自然科學·改變與穩定 的階段進程"
+  },
+  {
+   "topicId": "twt_5e93687496",
+   "prerequisiteId": "twt_f90e98ef03",
+   "strength": "hard",
+   "reason": "自然科學·改變與穩定 的階段進程"
+  },
+  {
+   "topicId": "twt_c396b6b3b8",
+   "prerequisiteId": "twt_1863b7f365",
+   "strength": "hard",
+   "reason": "自然科學·交互作用 的階段進程"
+  },
+  {
+   "topicId": "twt_31412c3a96",
+   "prerequisiteId": "twt_1863b7f365",
+   "strength": "hard",
+   "reason": "自然科學·交互作用 的階段進程"
+  },
+  {
+   "topicId": "twt_b08fbf8642",
+   "prerequisiteId": "twt_1863b7f365",
+   "strength": "hard",
+   "reason": "自然科學·交互作用 的階段進程"
+  },
+  {
+   "topicId": "twt_af802f5cb3",
+   "prerequisiteId": "twt_1863b7f365",
+   "strength": "hard",
+   "reason": "自然科學·交互作用 的階段進程"
+  },
+  {
+   "topicId": "twt_ae1e3df0e2",
+   "prerequisiteId": "twt_1863b7f365",
+   "strength": "hard",
+   "reason": "自然科學·交互作用 的階段進程"
+  },
+  {
+   "topicId": "twt_1245bb63fd",
+   "prerequisiteId": "twt_ffa548be28",
+   "strength": "hard",
+   "reason": "自然科學·科學與生活 的階段進程"
+  },
+  {
+   "topicId": "twt_96061a8366",
+   "prerequisiteId": "twt_ffa548be28",
+   "strength": "hard",
+   "reason": "自然科學·科學與生活 的階段進程"
+  },
+  {
+   "topicId": "twt_060cd2abc1",
+   "prerequisiteId": "twt_531fdb3a39",
+   "strength": "hard",
+   "reason": "自然科學·資源與永續性 的階段進程"
+  },
+  {
+   "topicId": "twt_37a64ed508",
+   "prerequisiteId": "twt_531fdb3a39",
+   "strength": "hard",
+   "reason": "自然科學·資源與永續性 的階段進程"
+  },
+  {
+   "topicId": "twt_05c27de0d9",
+   "prerequisiteId": "twt_6e68ea838a",
+   "strength": "hard",
+   "reason": "自然科學·科學態度 的階段進程"
+  },
+  {
+   "topicId": "twt_a85e11750b",
+   "prerequisiteId": "twt_6e68ea838a",
+   "strength": "hard",
+   "reason": "自然科學·科學態度 的階段進程"
+  },
+  {
+   "topicId": "twt_d90f5a71b7",
+   "prerequisiteId": "twt_6e68ea838a",
+   "strength": "hard",
+   "reason": "自然科學·科學態度 的階段進程"
+  },
+  {
+   "topicId": "twt_fe4899bed3",
+   "prerequisiteId": "twt_e3dc908a8a",
+   "strength": "hard",
+   "reason": "自然科學·思考智能 的階段進程"
+  },
+  {
+   "topicId": "twt_611c1fea9a",
+   "prerequisiteId": "twt_e3dc908a8a",
+   "strength": "hard",
+   "reason": "自然科學·思考智能 的階段進程"
+  },
+  {
+   "topicId": "twt_ca273d7b67",
+   "prerequisiteId": "twt_e3dc908a8a",
+   "strength": "hard",
+   "reason": "自然科學·思考智能 的階段進程"
+  },
+  {
+   "topicId": "twt_197573c63b",
+   "prerequisiteId": "twt_e3dc908a8a",
+   "strength": "hard",
+   "reason": "自然科學·思考智能 的階段進程"
+  },
+  {
+   "topicId": "twt_adfe678871",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "soft",
+   "reason": "社會 領域內關聯"
+  },
+  {
+   "topicId": "twt_6001fca3e2",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "soft",
+   "reason": "社會 領域內關聯"
+  },
+  {
+   "topicId": "twt_e386b8ceb8",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "soft",
+   "reason": "社會 領域內關聯"
+  },
+  {
+   "topicId": "twt_c1798e1ee0",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "soft",
+   "reason": "社會 領域內關聯"
+  },
+  {
+   "topicId": "twt_c27e4e9c9e",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "soft",
+   "reason": "社會 領域內關聯"
+  },
+  {
+   "topicId": "twt_7980882771",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "soft",
+   "reason": "社會 領域內關聯"
+  },
+  {
+   "topicId": "twt_8434120d3f",
+   "prerequisiteId": "twt_1cf1fe5f8e",
+   "strength": "soft",
+   "reason": "社會 領域內關聯"
+  },
+  {
+   "topicId": "twt_1a4750859b",
+   "prerequisiteId": "twt_fe47595987",
+   "strength": "soft",
+   "reason": "藝術 領域內關聯"
+  },
+  {
+   "topicId": "twt_7197b1408e",
+   "prerequisiteId": "twt_fe47595987",
+   "strength": "soft",
+   "reason": "藝術 領域內關聯"
+  },
+  {
+   "topicId": "twt_0e14affd0b",
+   "prerequisiteId": "twt_fe47595987",
+   "strength": "soft",
+   "reason": "藝術 領域內關聯"
+  },
+  {
+   "topicId": "twt_7452a4396b",
+   "prerequisiteId": "twt_fe47595987",
+   "strength": "soft",
+   "reason": "藝術 領域內關聯"
+  },
+  {
+   "topicId": "twt_cc7c363236",
+   "prerequisiteId": "twt_fe47595987",
+   "strength": "soft",
+   "reason": "藝術 領域內關聯"
+  },
+  {
+   "topicId": "twt_af43fe8076",
+   "prerequisiteId": "twt_fe47595987",
+   "strength": "soft",
+   "reason": "藝術 領域內關聯"
+  },
+  {
+   "topicId": "twt_0bba14c963",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_75e9dd8d26",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_85c92a9f76",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_2dcb6cffab",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_86b5c11277",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_c5b7b26e14",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_aeba618095",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_3fe623b54d",
+   "prerequisiteId": "twt_681f52a57b",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_91c04ab17d",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_b4568e2952",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_ee2fefaa0a",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_157a8267fe",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_7575fc15cc",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_8252728a14",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_7d23f0ed7d",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_8d5156d354",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_429718c906",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_87a66012b5",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_a804b45f8f",
+   "prerequisiteId": "twt_3fe623b54d",
+   "strength": "soft",
+   "reason": "健康與體育 領域內關聯"
+  },
+  {
+   "topicId": "twt_aaaf553b0c",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "soft",
+   "reason": "綜合活動 領域內關聯"
+  },
+  {
+   "topicId": "twt_dfd3136012",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "soft",
+   "reason": "綜合活動 領域內關聯"
+  },
+  {
+   "topicId": "twt_09d6f9814b",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "soft",
+   "reason": "綜合活動 領域內關聯"
+  },
+  {
+   "topicId": "twt_03d5499b3b",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "soft",
+   "reason": "綜合活動 領域內關聯"
+  },
+  {
+   "topicId": "twt_e3920fef46",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "soft",
+   "reason": "綜合活動 領域內關聯"
+  },
+  {
+   "topicId": "twt_d18885a734",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "soft",
+   "reason": "綜合活動 領域內關聯"
+  },
+  {
+   "topicId": "twt_4990c85bb2",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "soft",
+   "reason": "綜合活動 領域內關聯"
+  },
+  {
+   "topicId": "twt_71dbd7a0d9",
+   "prerequisiteId": "twt_f78eb2aaa6",
+   "strength": "soft",
+   "reason": "綜合活動 領域內關聯"
+  },
+  {
+   "topicId": "twt_4b31f9c5af",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_969bc89f4d",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_a767042498",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_09cdd76dc0",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_652e3ab531",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_6da01e70db",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_39b1c09af7",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_689abec17d",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_7522424f61",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_f04f328538",
+   "prerequisiteId": "twt_d57f1fa633",
+   "strength": "soft",
+   "reason": "英語文 領域內關聯"
+  },
+  {
+   "topicId": "twt_1b64c0be31",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_62f25b421b",
+   "prerequisiteId": "twt_1c4fd40dd2",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_7accfc3f40",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_adf2312ed6",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_13ec19a124",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_6773878b1e",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_8ed79c8e63",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_d0f41fc20b",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_2c6757bf92",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_d3fa7578f2",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_4dfcb62fd7",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_c9cb9aaa54",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_977a5f95b2",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_52e7bfddfd",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_f7b998ceab",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_b35e34b9cb",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_bd1e1a90b7",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_c1710b87eb",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_d39dac1d5c",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_5c3b8e1001",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_1c4fd40dd2",
+   "prerequisiteId": "twt_d1a2498ee2",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_fc05f223e6",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_6126a84568",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_3f0e7c11fe",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_a76062d799",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_d1a2498ee2",
+   "prerequisiteId": "twt_6e68ea838a",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  },
+  {
+   "topicId": "twt_5e06911fc7",
+   "prerequisiteId": "twt_62f25b421b",
+   "strength": "soft",
+   "reason": "自然科學 領域內關聯"
+  }
+ ]
+}

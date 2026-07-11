@@ -1,0 +1,21 @@
+# 課綱原始 PDF（第三方版權、體積大、可重新下載；解析文字已在 data/curriculum-standards.json）
+sources/curriculum-pdf/
+sources/handbooks/
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 暫存與系統檔
+/tmp/
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 編輯器
+.vscode/
+.idea/
+*.swp

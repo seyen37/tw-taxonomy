@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: 若您使用本資料集，請依下列方式引用。
+title: "tw-taxonomy — 台灣國小學習知識圖譜"
+abstract: >-
+  以十二年國民基本教育課程綱要（108 課綱）為本的台灣國民小學學習知識圖譜：
+  將各領域學習重點拆解為 569 個細粒度微主題，以 717 條先修關係串成有向無環圖（DAG），
+  對應回課綱的學習內容與學習表現代碼，並附精熟證據、家長檢核提示與三級分級任務。
+type: dataset
+version: "1.0.0"
+license: CC-BY-4.0
+keywords:
+  - 108課綱
+  - 十二年國教
+  - 知識圖譜
+  - 課程地圖
+  - 個人化學習
+  - curriculum
+  - knowledge-graph
+  - taiwan-education
+authors:
+  - name: "tw-taxonomy contributors"
+references:
+  - type: data
+    title: "十二年國民基本教育課程綱要各領域課程綱要"
+    authors:
+      - name: "教育部"
+    notes: >-
+      課綱條文出自教育部發布之各領域課程綱要，© 教育部。
+      本資料集非教育部官方產品，教育部未參與亦未背書。詳見 PROVENANCE.md。
+  - type: software
+    title: "Marble Skill Taxonomy (os-taxonomy)"
+    notes: "方法論啟發來源；本資料集內容全新建置，非其衍生資料庫。"

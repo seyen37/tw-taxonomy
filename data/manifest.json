@@ -1,0 +1,47 @@
+{
+ "dataset": "tw-taxonomy",
+ "taxonomyVersion": "v0.5-perf-deepened",
+ "counts": {
+  "topics": 569,
+  "dependencies": 717,
+  "topicsBySubject": {
+   "數學": 174,
+   "國語文": 105,
+   "生活課程": 24,
+   "英語文": 29,
+   "自然科學": 74,
+   "社會": 26,
+   "綜合活動": 23,
+   "健康與體育": 72,
+   "藝術": 24,
+   "本土語文（閩南語文）": 3,
+   "本土語文（客語文）": 3,
+   "本土語文（原住民族語文）": 3,
+   "本土語文（閩東語文）": 3,
+   "新住民語文": 3,
+   "臺灣手語": 3
+  },
+  "curriculumSubjects": 15,
+  "curriculumEntries": 1840,
+  "clusters": 103,
+  "topicsWithDifferentiatedTasks": 569
+ },
+ "files": {
+  "topics.json": {
+   "bytes": 536694,
+   "sha256": "c6c021f4e37f806bba0f4e48dfc09effffbdc3a46ade9fc71f8f3781e89c519b"
+  },
+  "dependencies.json": {
+   "bytes": 108363,
+   "sha256": "f15dfba84b0b4c9bc0674be7b74d987612c2fda609b55ce354f098e46832ca8f"
+  },
+  "curriculum-standards.json": {
+   "bytes": 505437,
+   "sha256": "0ab2b925b66b3dcb129d714c8b7d0de3782e9a27e46d82a23ea233236722d196"
+  },
+  "clusters.json": {
+   "bytes": 41319,
+   "sha256": "f700b702aeb2d76f3aec4c292c92304981536a86b416ff3122009c1035b6e64e"
+  }
+ }
+}

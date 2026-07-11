@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tw-taxonomy/schema/clusters.schema.json",
+  "title": "tw-taxonomy — 領域摘要（clusters）",
+  "description": "以（領域 × 主題群 × 學習階段）為單位的家長友善摘要。",
+  "type": "object",
+  "required": ["version", "clusterCount", "clusters"],
+  "properties": {
+    "version": { "type": "string" },
+    "clusterCount": { "type": "integer", "minimum": 0 },
+    "clusters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["subject", "domain", "stage", "summary"],
+        "properties": {
+          "subject": { "type": "string" },
+          "domain": { "type": "string" },
+          "stage": { "type": "integer", "minimum": 1, "maximum": 3 },
+          "summary": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

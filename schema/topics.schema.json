@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tw-taxonomy/schema/topics.schema.json",
+  "title": "tw-taxonomy — 微主題（topics）",
+  "type": "object",
+  "required": ["version", "topicCount", "topics"],
+  "properties": {
+    "version": { "type": "string" },
+    "topicCount": { "type": "integer", "minimum": 0 },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "subject", "name", "description", "evidence", "contentCodes", "performanceCodes"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^twt_" },
+          "type": {
+            "type": "string",
+            "enum": ["CONCEPTUAL", "PROCEDURAL", "REPRESENTATIONAL", "LANGUAGE", "META"]
+          },
+          "subject": { "type": "string" },
+          "domain": { "type": ["string", "null"] },
+          "name": { "type": ["string", "null"] },
+          "description": { "type": "string" },
+          "stage": { "type": ["integer", "null"], "minimum": 1, "maximum": 3 },
+          "gradeStart": { "type": ["integer", "null"], "minimum": 1, "maximum": 6 },
+          "gradeEnd": { "type": ["integer", "null"], "minimum": 1, "maximum": 6 },
+          "centrality": { "type": ["number", "null"] },
+          "elective": { "type": "boolean", "default": false },
+          "evidence": { "type": "array", "items": { "type": "string" } },
+          "assessmentPrompt": { "type": ["string", "null"] },
+          "differentiatedTasks": {
+            "type": ["object", "null"],
+            "description": "差異化教學的三級任務（借鏡韓國 심화/기본/기초）。同一概念、不同難度的活動。",
+            "required": ["advanced", "basic", "foundational"],
+            "properties": {
+              "advanced": { "type": "string", "description": "進階：延伸、應用、跨情境" },
+              "basic": { "type": "string", "description": "基本：達成該微主題核心目標" },
+              "foundational": { "type": "string", "description": "基礎：具體操作、鷹架支持，給尚未達標的學生" }
+            },
+            "additionalProperties": false
+          },
+          "contentCodes": { "type": "array", "items": { "type": "string" } },
+          "performanceCodes": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
