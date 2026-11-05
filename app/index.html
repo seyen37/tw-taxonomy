@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tw-taxonomy 教師工作台</title>
+<meta name="description" content="以 108 課綱為本的台灣國小學習知識圖譜：查詢微主題、追學習路徑、診斷補救、產生逐課教學設計表。">
+<link rel="stylesheet" href="css/app.css">
+<script>
+  // 先套用記住的主題，避免閃爍
+  try { var th = localStorage.getItem('twt-theme'); if (th) document.documentElement.dataset.theme = th; } catch (e) {}
+</script>
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="#/">tw-taxonomy <small>台灣國小學習知識圖譜 · 教師工作台</small></a>
+    <button class="btn small theme-btn" id="theme" type="button" title="切換淺色／深色">◐ 主題</button>
+  </div>
+  <nav class="tabs" id="tabs">
+    <a href="#/" data-tab="home">首頁</a>
+    <a href="#/search" data-tab="search">🔍 查詢</a>
+    <a href="#/path" data-tab="path">🧭 學習路徑</a>
+    <a href="#/diagnose" data-tab="diagnose">🩺 診斷補救</a>
+    <a href="#/plan" data-tab="plan">📋 教學設計表</a>
+    <a href="#/graph" data-tab="graph">🕸 知識圖</a>
+  </nav>
+</header>
+<main id="view"><p class="empty">載入中…</p></main>
+<div class="toast" id="toast"></div>
+<noscript><p class="empty">這個網頁需要啟用 JavaScript。</p></noscript>
+
+<!-- vendor/d3.min.js 由知識圖分頁按需載入 -->
+<script src="../lib/taxonomy.js"></script>
+<script src="data.js"></script>
+<script src="js/graph.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

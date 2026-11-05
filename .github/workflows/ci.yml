@@ -1,0 +1,18 @@
+name: 驗證
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 資料驗證（含衍生產物同步檢查）
+        run: node scripts/validate.mjs
+      - name: 單元測試
+        run: node --test tests/*.test.mjs
