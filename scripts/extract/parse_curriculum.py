@@ -6,7 +6,7 @@
 代碼羅馬數字正規化為 ASCII（Ⅰ→I）。"""
 import json, os, re, subprocess, sys, unicodedata
 
-SRC = '/sessions/tender-busy-hamilton/mnt/taxonomy/sources/curriculum-pdf'
+SRC = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'sources', 'curriculum-pdf')
 OUT = '/tmp/extracted'
 ROMAN = {'Ⅰ':1,'Ⅱ':2,'Ⅲ':3,'Ⅳ':4,'Ⅴ':5,'I':1,'II':2,'III':3,'IV':4,'V':5}
 ST = r'(?:Ⅰ|Ⅱ|Ⅲ|Ⅳ|Ⅴ|IV|V|I{1,3})'

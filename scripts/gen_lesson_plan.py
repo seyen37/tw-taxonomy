@@ -13,7 +13,7 @@
 import argparse, json, os
 from collections import defaultdict, deque
 
-DATA = '/sessions/tender-busy-hamilton/mnt/taxonomy/tw-taxonomy/data'
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
 
 # 型別 → 建議教學法（與《教師使用手冊》一致）
 TYPE_METHOD = {
@@ -27,8 +27,8 @@ STAGE_NAME = {1: '第一學習階段（1-2年級）', 2: '第二學習階段（3
 
 
 def load():
-    t = json.load(open(f'{DATA}/topics.json'))['topics']
-    d = json.load(open(f'{DATA}/dependencies.json'))['dependencies']
+    t = json.load(open(f'{DATA}/topics.json', encoding='utf-8'))['topics']
+    d = json.load(open(f'{DATA}/dependencies.json', encoding='utf-8'))['dependencies']
     return t, d
 
 
@@ -165,7 +165,7 @@ if __name__ == '__main__':
         print('查無符合的微主題，請檢查 --subject／--grade／--stage')
         raise SystemExit(1)
     if a.out:
-        open(a.out, 'w').write(md)
+        open(a.out, 'w', encoding='utf-8').write(md)
         print(f'已寫出 {a.out}（{md.count(chr(10).join(["## "]))} …）')
     else:
         print(md)

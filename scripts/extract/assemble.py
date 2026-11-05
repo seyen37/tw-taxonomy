@@ -5,7 +5,7 @@ import json, os, re, subprocess
 import pc
 
 SRC = pc.SRC
-DATA = '/sessions/tender-busy-hamilton/mnt/taxonomy/tw-taxonomy/data'
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'data')
 ORDER = ['mandarin','english','math','science','social','life','integrative',
          'health-pe','arts','taigi','hakka','indigenous','matsu','sea-lang','tsl']
 

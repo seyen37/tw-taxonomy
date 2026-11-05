@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """apply_difftasks.py — 把分級任務併入 topics.json（依微主題名稱比對），重算 manifest。"""
-import json, hashlib, re, sys
+import json, os, hashlib, re, sys
 from collections import Counter
-DATA='/sessions/tender-busy-hamilton/mnt/taxonomy/tw-taxonomy/data'
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'data')
 ns={}; exec(open('/tmp/difftasks_math_g1.py').read(), ns); DIFF=ns['DIFF']
 
 t=json.load(open(f'{DATA}/topics.json'))

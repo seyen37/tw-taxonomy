@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """build.py — 全領域微主題批次 → topics.json + dependencies.json ＋守門檢查＋自動連邊。"""
-import json, hashlib, re, sys
+import json, os, hashlib, re, sys
 from collections import defaultdict, Counter
 
-DATA = '/sessions/tender-busy-hamilton/mnt/taxonomy/tw-taxonomy/data'
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'data')
 # (變數, 檔, subject, slug, elective, autolink)
 GROUPS = [
  ('G1','g1','數學','math',False,False),('G2N','g2n','數學','math',False,False),('G2SRD','g2srd','數學','math',False,False),
