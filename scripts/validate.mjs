@@ -4,7 +4,8 @@
  *
  * 檢查項目：宣告計數、ID 唯一性與格式、參照完整性（邊端點、
  * 微主題→課綱代碼）、DAG 無環、階段一致性（先修階段 ≤ 後續階段）、
- * manifest SHA-256 校驗和。任一失敗以非零碼結束。
+ * manifest SHA-256 校驗和，以及衍生產物（app/data.js、lesson-plans/）
+ * 是否與 data/ 同步。任一失敗以非零碼結束。
  *
  *   node scripts/validate.mjs
  */
@@ -119,6 +120,14 @@ if (optional('manifest.json')) {
     const sha = createHash('sha256').update(buf).digest('hex');
     check(sha === meta.sha256, `manifest ${file}: sha256 不符`);
   }
+}
+
+// --- 衍生產物同步 --------------------------------------------------------------
+if (!errors.length) {
+  const { checkAppData } = await import('./build-app-data.mjs');
+  const { checkLessonPlans } = await import('./build-lesson-plans.mjs');
+  check(checkAppData(), 'app/data.js 與 data/ 不同步，請執行 node scripts/build-app-data.mjs');
+  for (const p of checkLessonPlans()) errors.push(`lesson-plans/ ${p}，請執行 node scripts/build-lesson-plans.mjs`);
 }
 
 if (errors.length) {
